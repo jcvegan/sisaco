@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79C0025E-C3F6-43CB-B184-F8C202EBEF2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISACO</RootNamespace>
+    <AssemblyName>SISACO</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controles\CalendarCell.cs" />
+    <Compile Include="Controles\CalendarColumn.cs" />
+    <Compile Include="Controles\CalendarEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controles\DateTimeDataGridColumn.cs" />
+    <Compile Include="Controles\DateTimeDataGridViewCell.cs" />
+    <Compile Include="Eventos\SesionIniciadaEventArgs.cs" />
+    <Compile Include="Form_CambiarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CambiarContraseña.Designer.cs">
+      <DependentUpon>Form_CambiarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GenerarOrdendeAcondicionamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GenerarOrdendeAcondicionamiento.Designer.cs">
+      <DependentUpon>Form_GenerarOrdendeAcondicionamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RegistrarMaterialdeEmpaqueporProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RegistrarMaterialdeEmpaqueporProducto.Designer.cs">
+      <DependentUpon>Form_RegistrarMaterialdeEmpaqueporProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OrdendeAcondicionamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OrdendeAcondicionamiento.Designer.cs">
+      <DependentUpon>Form_OrdendeAcondicionamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AbrirOrdendeAcondicionamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AbrirOrdendeAcondicionamiento.Designer.cs">
+      <DependentUpon>Form_AbrirOrdendeAcondicionamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BuscarMaterialdeEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BuscarMaterialdeEmpaque.Designer.cs">
+      <DependentUpon>Form_BuscarMaterialdeEmpaque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BuscarporPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BuscarporPeriodo.Designer.cs">
+      <DependentUpon>Form_BuscarporPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BuscarporProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BuscarporProducto.Designer.cs">
+      <DependentUpon>Form_BuscarporProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BuscarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BuscarProducto.Designer.cs">
+      <DependentUpon>Form_BuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BuscarUsuario.Designer.cs">
+      <DependentUpon>Form_BuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CrearMaterialdeEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CrearMaterialdeEmpaque.Designer.cs">
+      <DependentUpon>Form_CrearMaterialdeEmpaque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CrearProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CrearProducto.Designer.cs">
+      <DependentUpon>Form_CrearProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CrearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CrearUsuario.Designer.cs">
+      <DependentUpon>Form_CrearUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_IniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_IniciarSesion.Designer.cs">
+      <DependentUpon>Form_IniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ModificarMaterialdeEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ModificarMaterialdeEmpaque.Designer.cs">
+      <DependentUpon>Form_ModificarMaterialdeEmpaque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ModificarProducto.Designer.cs">
+      <DependentUpon>Form_ModificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ModificarUsuario.Designer.cs">
+      <DependentUpon>Form_ModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PrincipalAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PrincipalAdministrador.Designer.cs">
+      <DependentUpon>Form_PrincipalAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PrincipalEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PrincipalEmpleado.Designer.cs">
+      <DependentUpon>Form_PrincipalEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RegistrarUsuario.Designer.cs">
+      <DependentUpon>Form_RegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RegistrarMaterialdeEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RegistrarMaterialdeEmpaque.Designer.cs">
+      <DependentUpon>Form_RegistrarMaterialdeEmpaque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RegistrarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RegistrarProducto.Designer.cs">
+      <DependentUpon>Form_RegistrarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SeleccionarporPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SeleccionarporPeriodo.Designer.cs">
+      <DependentUpon>Form_SeleccionarporPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SeleccionarporProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SeleccionarporProducto.Designer.cs">
+      <DependentUpon>Form_SeleccionarporProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SeleccionarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SeleccionarProducto.Designer.cs">
+      <DependentUpon>Form_SeleccionarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ISesionInit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitarios\Encriptador.cs" />
+    <EmbeddedResource Include="Form_CambiarContraseña.resx">
+      <DependentUpon>Form_CambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GenerarOrdendeAcondicionamiento.resx">
+      <DependentUpon>Form_GenerarOrdendeAcondicionamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RegistrarMaterialdeEmpaqueporProducto.resx">
+      <DependentUpon>Form_RegistrarMaterialdeEmpaqueporProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OrdendeAcondicionamiento.resx">
+      <DependentUpon>Form_OrdendeAcondicionamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AbrirOrdendeAcondicionamiento.resx">
+      <DependentUpon>Form_AbrirOrdendeAcondicionamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BuscarMaterialdeEmpaque.resx">
+      <DependentUpon>Form_BuscarMaterialdeEmpaque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BuscarporPeriodo.resx">
+      <DependentUpon>Form_BuscarporPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BuscarporProducto.resx">
+      <DependentUpon>Form_BuscarporProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BuscarProducto.resx">
+      <DependentUpon>Form_BuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BuscarUsuario.resx">
+      <DependentUpon>Form_BuscarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CrearMaterialdeEmpaque.resx">
+      <DependentUpon>Form_CrearMaterialdeEmpaque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CrearProducto.resx">
+      <DependentUpon>Form_CrearProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CrearUsuario.resx">
+      <DependentUpon>Form_CrearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_IniciarSesion.resx">
+      <DependentUpon>Form_IniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ModificarMaterialdeEmpaque.resx">
+      <DependentUpon>Form_ModificarMaterialdeEmpaque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ModificarProducto.resx">
+      <DependentUpon>Form_ModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ModificarUsuario.resx">
+      <DependentUpon>Form_ModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PrincipalAdministrador.resx">
+      <DependentUpon>Form_PrincipalAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PrincipalEmpleado.resx">
+      <DependentUpon>Form_PrincipalEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RegistrarUsuario.resx">
+      <DependentUpon>Form_RegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RegistrarMaterialdeEmpaque.resx">
+      <DependentUpon>Form_RegistrarMaterialdeEmpaque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RegistrarProducto.resx">
+      <DependentUpon>Form_RegistrarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SeleccionarporPeriodo.resx">
+      <DependentUpon>Form_SeleccionarporPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SeleccionarporProducto.resx">
+      <DependentUpon>Form_SeleccionarporProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SeleccionarProducto.resx">
+      <DependentUpon>Form_SeleccionarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL_SISACO\BL_SISACO.csproj">
+      <Project>{E337E395-A3E0-4F40-9E3F-A666FDFC88DB}</Project>
+      <Name>BL_SISACO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BO_SISACO\BO_SISACO.csproj">
+      <Project>{029F109A-A802-41FE-99B6-F16877143DA6}</Project>
+      <Name>BO_SISACO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Iniciar_Sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
