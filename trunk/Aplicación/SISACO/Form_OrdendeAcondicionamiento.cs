@@ -12,6 +12,9 @@ using BO_SISACO;
 
 namespace SISACO
 {
+    /// <summary>
+    /// Clase para Manejo de ORDENES DE ACONDICIONAMIENTO
+    /// </summary>
     public partial class Form_OrdendeAcondicionamiento : Form 
     {
         #region constantes
