@@ -641,17 +641,17 @@ namespace SISACO
             rdb_Uniforme_Completo_No_Aplica_2.Checked = false;
             rdb_Dispositivos_Seguridad_No_Aplica_2.Checked = false;
             rdb_Higiene_No_Aplica_2.Checked = false;
-            txt_Fecha_2.Text = "";
-            txt_Hora_2.Text = "";
-            txt_Procedimiento_9_2.Text = "";
-            txt_Procedimiento_9_3.Text = "";
-            dtp_Fecha_Procedimiento_8_9.Text = "";
-            dtp_Fecha_Procedimiento_10_11_12.Text = "";
-            dtp_Fecha_Procedimiento_13.Text = "";
-            txt_Procedimiento_14.Text = "";
-            txt_Procedimiento_15.Text = "";
-            dtp_Fecha_Procedimiento_14_15_16.Text = "";
-            dtp_Fecha_Procedimiento_17.Text = "";
+            cbx_Fecha_2.Checked = false;
+            cbx_Hora_2.Checked = false;
+            cbx_Fecha_Procedimiento_1_2.Checked = false;
+            cbx_Fecha_Procedimiento_2_2.Checked = false;
+            cbx_Fecha_Procedimiento_3_2.Checked = false;
+            cbx_Fecha_Procedimiento_4_2.Checked = false;
+            cbx_Fecha_Procedimiento_5_2.Checked = false;
+            cbx_Fecha_Procedimiento_6_2.Checked = false;
+            cbx_Fecha_Procedimiento_7_2.Checked = false;
+            txt_insumo.Text = "";
+            txt_Cajas.Text = "";
             txt_Observaciones_3.Text = "";
         }
 
@@ -659,7 +659,6 @@ namespace SISACO
         {
             gpb_Entrega_Producto_Empacar.Enabled = true;
             gpb_Entrega_Producto_Terminado_Almacen.Enabled = true;
-            lbl_Total_2.Enabled = true;
             gpb_Observaciones_4.Enabled = true;
             btn_Limpiar_4.Enabled = true;
             btn_Aceptar_4.Enabled = true;
@@ -667,15 +666,20 @@ namespace SISACO
 
         private void btn_Limpiar_4_Click(object sender, EventArgs e) 
         {
-            dgv_Entrega_Producto_Empacar.Rows.Clear();
-            dgv_Entrega_Producto_Terminado_Almacen.Rows.Clear();
+            dgv_Entrega_Producto_Empacar.DataSource = null;
+            dgv_Entrega_Producto_Terminado_Almacen.DataSource = null;
             txt_Total_2.Text = "";
             txt_Observaciones_4.Text = "";
         }
 
         private void btn_Aceptar_4_Click(object sender, EventArgs e) 
         {
-
+            gpb_Material_Empaque_2.Enabled = true;
+            gpb_Merma.Enabled = true;
+            lbl_Formula_1.Enabled = true;
+            lbl_Formula_2.Enabled = true;
+            btn_Limpiar_5.Enabled = true;
+            btn_Aceptar_5.Enabled = true;
         }
 
         private void btn_Limpiar_5_Click(object sender, EventArgs e) 
@@ -690,23 +694,39 @@ namespace SISACO
 
         private void btn_Limpiar_7_Click(object sender, EventArgs e) 
         {
-            dgv_Merma.Rows.Clear();
+            dgv_Material_Empaque_2.DataSource = null;
+            dgv_Merma.DataSource = null;
         }
 
         private void btn_Aceptar_7_Click(object sender, EventArgs e) 
         {
-
+            lbl_Fecha_Inicio.Enabled = true;
+            lbl_Fecha_Termino.Enabled = true;
+            lbl_Cantidad_Teorica.Enabled = true;
+            txt_Cantidad_Teorica.Enabled = true;
+            lbl_Cantidad_Obtenida.Enabled = true;
+            txt_Cantidad_Obtenida.Enabled = true;
+            lbl_Merma.Enabled = true;
+            txt_Merma.Enabled = true;
+            lbl_Rendimiento_Final.Enabled = true;
+            txt_Rendimiento_Final.Enabled = true;
+            lbl_Limites_Merma.Enabled = true;
+            lbl_3_0_Porciento.Enabled = true;
+            lbl_Formula_3.Enabled = true;
+            gpb_Observaciones_5.Enabled = true;
+            btn_Limpiar_6.Enabled = true;
+            btn_Aceptar_6.Enabled = true;
         }
 
         private void btn_Limpiar_7_Click_1(object sender, EventArgs e) 
         {
-            dtp_Fecha_Inicio.Text = "";
-            dtp_Fecha_Termino.Text = "";
             txt_Cantidad_Teorica.Text = "";
             txt_Cantidad_Obtenida.Text = "";
+            txt_Cantidad_Teorica.Text = "";
             txt_Merma.Text = "";
             txt_Rendimiento_Final.Text = "";
             txt_Observaciones_5.Text = "";
+            txt_Cantidad_Teorica.Focus();
         }
 
         private void btn_Aceptar_7_Click_1(object sender, EventArgs e) 
