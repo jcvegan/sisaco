@@ -12,9 +12,6 @@ using BO_SISACO;
 
 namespace SISACO
 {
-    /// <summary>
-    /// Clase para Manejo de ORDENES DE ACONDICIONAMIENTO
-    /// </summary>
     public partial class Form_OrdendeAcondicionamiento : Form 
     {
         #region constantes
@@ -660,7 +657,12 @@ namespace SISACO
 
         private void btn_Aceptar_3_Click(object sender, EventArgs e) 
         {
-            
+            gpb_Entrega_Producto_Empacar.Enabled = true;
+            gpb_Entrega_Producto_Terminado_Almacen.Enabled = true;
+            lbl_Total_2.Enabled = true;
+            gpb_Observaciones_4.Enabled = true;
+            btn_Limpiar_4.Enabled = true;
+            btn_Aceptar_4.Enabled = true;
         }
 
         private void btn_Limpiar_4_Click(object sender, EventArgs e) 
