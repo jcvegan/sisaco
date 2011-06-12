@@ -285,8 +285,6 @@ namespace BDA_SISACO
 					loBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque_x_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Producto"));
 					loBOT_Material_Empaque_x_Producto.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
-					value = loDr.GetValue(loDr.GetOrdinal("Lote_Fabricacion"));
-					loBOT_Material_Empaque_x_Producto.Lote_Fabricacion = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Tamaño_Lote"));
 					loBOT_Material_Empaque_x_Producto.Tamaño_Lote = value != System.DBNull.Value ? (Int32)value : default(Int32);
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Material_Empaque"));
