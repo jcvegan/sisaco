@@ -24,27 +24,27 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_OrdendeAcondicionamiento));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -229,18 +229,18 @@
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbp_Rendimiento_Reporte_Final = new System.Windows.Forms.TabPage();
-            this.dtp_Fecha_Termino = new System.Windows.Forms.DateTimePicker();
-            this.dtp_Fecha_Inicio = new System.Windows.Forms.DateTimePicker();
+            this.txt_Fecha_Termino = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Inicio = new System.Windows.Forms.TextBox();
             this.txt_Merma = new System.Windows.Forms.TextBox();
             this.txt_Rendimiento_Final = new System.Windows.Forms.TextBox();
             this.txt_Cantidad_Obtenida = new System.Windows.Forms.TextBox();
             this.txt_Cantidad_Teorica = new System.Windows.Forms.TextBox();
             this.lbl_Merma = new System.Windows.Forms.Label();
-            this.btn_Aceptar_7 = new System.Windows.Forms.Button();
-            this.btn_Limpiar_7 = new System.Windows.Forms.Button();
+            this.btn_Aceptar_6 = new System.Windows.Forms.Button();
+            this.btn_Limpiar_6 = new System.Windows.Forms.Button();
             this.gpb_Observaciones_5 = new System.Windows.Forms.GroupBox();
             this.txt_Observaciones_5 = new System.Windows.Forms.TextBox();
-            this.label69 = new System.Windows.Forms.Label();
+            this.lbl_Formula_3 = new System.Windows.Forms.Label();
             this.lbl_3_0_Porciento = new System.Windows.Forms.Label();
             this.lbl_Limites_Merma = new System.Windows.Forms.Label();
             this.lbl_Rendimiento_Final = new System.Windows.Forms.Label();
@@ -249,10 +249,10 @@
             this.lbl_Cantidad_Teorica = new System.Windows.Forms.Label();
             this.lbl_Fecha_Inicio = new System.Windows.Forms.Label();
             this.tbp_Rendimiento_Empaque = new System.Windows.Forms.TabPage();
-            this.lbl_Formula_3 = new System.Windows.Forms.Label();
             this.lbl_Formula_2 = new System.Windows.Forms.Label();
-            this.btn_Aceptar_6 = new System.Windows.Forms.Button();
-            this.btn_Limpiar_6 = new System.Windows.Forms.Button();
+            this.lbl_Formula_1 = new System.Windows.Forms.Label();
+            this.btn_Aceptar_5 = new System.Windows.Forms.Button();
+            this.btn_Limpiar_5 = new System.Windows.Forms.Button();
             this.gpb_Merma = new System.Windows.Forms.GroupBox();
             this.dgv_Merma = new System.Windows.Forms.DataGridView();
             this.gpb_Material_Empaque_2 = new System.Windows.Forms.GroupBox();
@@ -274,29 +274,31 @@
             this.gpb_Observaciones_3 = new System.Windows.Forms.GroupBox();
             this.txt_Observaciones_3 = new System.Windows.Forms.TextBox();
             this.gpb_Procedimiento = new System.Windows.Forms.GroupBox();
-            this.lbl_Procedimiento_9_3 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_9_2 = new System.Windows.Forms.Label();
-            this.txt_Procedimiento_15 = new System.Windows.Forms.TextBox();
-            this.lbl_Procedimiento_17 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_16 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_15_2 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_15 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_14_2 = new System.Windows.Forms.Label();
-            this.txt_Procedimiento_9_2 = new System.Windows.Forms.TextBox();
-            this.txt_Procedimiento_9_3 = new System.Windows.Forms.TextBox();
-            this.dtp_Fecha_Procedimiento_10_11_12 = new System.Windows.Forms.DateTimePicker();
-            this.dtp_Fecha_Procedimiento_17 = new System.Windows.Forms.DateTimePicker();
-            this.dtp_Fecha_Procedimiento_14_15_16 = new System.Windows.Forms.DateTimePicker();
-            this.dtp_Fecha_Procedimiento_13 = new System.Windows.Forms.DateTimePicker();
-            this.txt_Procedimiento_14 = new System.Windows.Forms.TextBox();
-            this.dtp_Fecha_Procedimiento_8_9 = new System.Windows.Forms.DateTimePicker();
-            this.lbl_Procedimiento_13 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_14 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_12 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_11 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_10 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_9 = new System.Windows.Forms.Label();
-            this.lbl_Procedimiento_8 = new System.Windows.Forms.Label();
+            this.cbx_Fecha_Procedimiento_7_2 = new System.Windows.Forms.CheckBox();
+            this.cbx_Fecha_Procedimiento_6_2 = new System.Windows.Forms.CheckBox();
+            this.cbx_Fecha_Procedimiento_5_2 = new System.Windows.Forms.CheckBox();
+            this.cbx_Fecha_Procedimiento_4_2 = new System.Windows.Forms.CheckBox();
+            this.cbx_Fecha_Procedimiento_3_2 = new System.Windows.Forms.CheckBox();
+            this.txt_Fecha_Procedimiento_7_2 = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Procedimiento_6_2 = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Procedimiento_5_2 = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Procedimiento_4_2 = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Procedimiento_3_2 = new System.Windows.Forms.TextBox();
+            this.cbx_Fecha_Procedimiento_2_2 = new System.Windows.Forms.CheckBox();
+            this.txt_Fecha_Procedimiento_2_2 = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_Procedimiento_1_2 = new System.Windows.Forms.TextBox();
+            this.cbx_Fecha_Procedimiento_1_2 = new System.Windows.Forms.CheckBox();
+            this.txt_Cajas = new System.Windows.Forms.TextBox();
+            this.lbl_Procedimiento_7_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_6_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_5_2_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_5_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_4_2_2 = new System.Windows.Forms.Label();
+            this.txt_insumo = new System.Windows.Forms.TextBox();
+            this.lbl_Procedimiento_4_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_3_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_2_2 = new System.Windows.Forms.Label();
+            this.lbl_Procedimiento_1_2 = new System.Windows.Forms.Label();
             this.lbl_Procedimiento_7 = new System.Windows.Forms.Label();
             this.lbl_Fecha_4 = new System.Windows.Forms.Label();
             this.gpb_Despeje_Linea_2 = new System.Windows.Forms.GroupBox();
@@ -2561,17 +2563,17 @@
             // 
             // tbp_Rendimiento_Reporte_Final
             // 
-            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.dtp_Fecha_Termino);
-            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.dtp_Fecha_Inicio);
+            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Fecha_Termino);
+            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Fecha_Inicio);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Merma);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Rendimiento_Final);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Cantidad_Obtenida);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.txt_Cantidad_Teorica);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.lbl_Merma);
-            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.btn_Aceptar_7);
-            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.btn_Limpiar_7);
+            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.btn_Aceptar_6);
+            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.btn_Limpiar_6);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.gpb_Observaciones_5);
-            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.label69);
+            this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.lbl_Formula_3);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.lbl_3_0_Porciento);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.lbl_Limites_Merma);
             this.tbp_Rendimiento_Reporte_Final.Controls.Add(this.lbl_Rendimiento_Final);
@@ -2586,29 +2588,21 @@
             this.tbp_Rendimiento_Reporte_Final.Text = "Rendimiento y Reporte Final";
             this.tbp_Rendimiento_Reporte_Final.UseVisualStyleBackColor = true;
             // 
-            // dtp_Fecha_Termino
+            // txt_Fecha_Termino
             // 
-            this.dtp_Fecha_Termino.Enabled = false;
-            this.dtp_Fecha_Termino.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Termino.Location = new System.Drawing.Point(582, 63);
-            this.dtp_Fecha_Termino.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Termino.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Termino.Name = "dtp_Fecha_Termino";
-            this.dtp_Fecha_Termino.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Termino.TabIndex = 5;
-            this.dtp_Fecha_Termino.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.txt_Fecha_Termino.Enabled = false;
+            this.txt_Fecha_Termino.Location = new System.Drawing.Point(582, 63);
+            this.txt_Fecha_Termino.Name = "txt_Fecha_Termino";
+            this.txt_Fecha_Termino.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Termino.TabIndex = 22;
             // 
-            // dtp_Fecha_Inicio
+            // txt_Fecha_Inicio
             // 
-            this.dtp_Fecha_Inicio.Enabled = false;
-            this.dtp_Fecha_Inicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Inicio.Location = new System.Drawing.Point(306, 63);
-            this.dtp_Fecha_Inicio.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Inicio.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Inicio.Name = "dtp_Fecha_Inicio";
-            this.dtp_Fecha_Inicio.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Inicio.TabIndex = 3;
-            this.dtp_Fecha_Inicio.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.txt_Fecha_Inicio.Enabled = false;
+            this.txt_Fecha_Inicio.Location = new System.Drawing.Point(306, 63);
+            this.txt_Fecha_Inicio.Name = "txt_Fecha_Inicio";
+            this.txt_Fecha_Inicio.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Inicio.TabIndex = 21;
             // 
             // txt_Merma
             // 
@@ -2652,31 +2646,31 @@
             this.lbl_Merma.TabIndex = 10;
             this.lbl_Merma.Text = "Merma";
             // 
-            // btn_Aceptar_7
+            // btn_Aceptar_6
             // 
-            this.btn_Aceptar_7.Enabled = false;
-            this.btn_Aceptar_7.Image = global::SISACO.Properties.Resources.Aceptar;
-            this.btn_Aceptar_7.Location = new System.Drawing.Point(791, 520);
-            this.btn_Aceptar_7.Name = "btn_Aceptar_7";
-            this.btn_Aceptar_7.Size = new System.Drawing.Size(75, 23);
-            this.btn_Aceptar_7.TabIndex = 20;
-            this.btn_Aceptar_7.Text = "Aceptar";
-            this.btn_Aceptar_7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Aceptar_7.UseVisualStyleBackColor = true;
-            this.btn_Aceptar_7.Click += new System.EventHandler(this.btn_Aceptar_7_Click_1);
+            this.btn_Aceptar_6.Enabled = false;
+            this.btn_Aceptar_6.Image = global::SISACO.Properties.Resources.Aceptar;
+            this.btn_Aceptar_6.Location = new System.Drawing.Point(791, 520);
+            this.btn_Aceptar_6.Name = "btn_Aceptar_6";
+            this.btn_Aceptar_6.Size = new System.Drawing.Size(75, 23);
+            this.btn_Aceptar_6.TabIndex = 20;
+            this.btn_Aceptar_6.Text = "Aceptar";
+            this.btn_Aceptar_6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Aceptar_6.UseVisualStyleBackColor = true;
+            this.btn_Aceptar_6.Click += new System.EventHandler(this.btn_Aceptar_7_Click_1);
             // 
-            // btn_Limpiar_7
+            // btn_Limpiar_6
             // 
-            this.btn_Limpiar_7.Enabled = false;
-            this.btn_Limpiar_7.Image = global::SISACO.Properties.Resources.Limpiar;
-            this.btn_Limpiar_7.Location = new System.Drawing.Point(710, 520);
-            this.btn_Limpiar_7.Name = "btn_Limpiar_7";
-            this.btn_Limpiar_7.Size = new System.Drawing.Size(75, 23);
-            this.btn_Limpiar_7.TabIndex = 19;
-            this.btn_Limpiar_7.Text = "Limpiar";
-            this.btn_Limpiar_7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Limpiar_7.UseVisualStyleBackColor = true;
-            this.btn_Limpiar_7.Click += new System.EventHandler(this.btn_Limpiar_7_Click_1);
+            this.btn_Limpiar_6.Enabled = false;
+            this.btn_Limpiar_6.Image = global::SISACO.Properties.Resources.Limpiar;
+            this.btn_Limpiar_6.Location = new System.Drawing.Point(710, 520);
+            this.btn_Limpiar_6.Name = "btn_Limpiar_6";
+            this.btn_Limpiar_6.Size = new System.Drawing.Size(75, 23);
+            this.btn_Limpiar_6.TabIndex = 19;
+            this.btn_Limpiar_6.Text = "Limpiar";
+            this.btn_Limpiar_6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Limpiar_6.UseVisualStyleBackColor = true;
+            this.btn_Limpiar_6.Click += new System.EventHandler(this.btn_Limpiar_7_Click_1);
             // 
             // gpb_Observaciones_5
             // 
@@ -2697,14 +2691,15 @@
             this.txt_Observaciones_5.Size = new System.Drawing.Size(843, 76);
             this.txt_Observaciones_5.TabIndex = 18;
             // 
-            // label69
+            // lbl_Formula_3
             // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(299, 216);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(316, 13);
-            this.label69.TabIndex = 16;
-            this.label69.Text = "% Rendimiento = (Cantidad Práctica) / (Cantidad Obtenida)  x 100";
+            this.lbl_Formula_3.AutoSize = true;
+            this.lbl_Formula_3.Enabled = false;
+            this.lbl_Formula_3.Location = new System.Drawing.Point(299, 216);
+            this.lbl_Formula_3.Name = "lbl_Formula_3";
+            this.lbl_Formula_3.Size = new System.Drawing.Size(316, 13);
+            this.lbl_Formula_3.TabIndex = 16;
+            this.lbl_Formula_3.Text = "% Rendimiento = (Cantidad Práctica) / (Cantidad Obtenida)  x 100";
             // 
             // lbl_3_0_Porciento
             // 
@@ -2778,10 +2773,10 @@
             // 
             // tbp_Rendimiento_Empaque
             // 
-            this.tbp_Rendimiento_Empaque.Controls.Add(this.lbl_Formula_3);
             this.tbp_Rendimiento_Empaque.Controls.Add(this.lbl_Formula_2);
-            this.tbp_Rendimiento_Empaque.Controls.Add(this.btn_Aceptar_6);
-            this.tbp_Rendimiento_Empaque.Controls.Add(this.btn_Limpiar_6);
+            this.tbp_Rendimiento_Empaque.Controls.Add(this.lbl_Formula_1);
+            this.tbp_Rendimiento_Empaque.Controls.Add(this.btn_Aceptar_5);
+            this.tbp_Rendimiento_Empaque.Controls.Add(this.btn_Limpiar_5);
             this.tbp_Rendimiento_Empaque.Controls.Add(this.gpb_Merma);
             this.tbp_Rendimiento_Empaque.Controls.Add(this.gpb_Material_Empaque_2);
             this.tbp_Rendimiento_Empaque.Location = new System.Drawing.Point(4, 22);
@@ -2791,51 +2786,51 @@
             this.tbp_Rendimiento_Empaque.Text = "Rendimiento de Empaque";
             this.tbp_Rendimiento_Empaque.UseVisualStyleBackColor = true;
             // 
-            // lbl_Formula_3
-            // 
-            this.lbl_Formula_3.AutoSize = true;
-            this.lbl_Formula_3.Enabled = false;
-            this.lbl_Formula_3.Location = new System.Drawing.Point(6, 438);
-            this.lbl_Formula_3.Name = "lbl_Formula_3";
-            this.lbl_Formula_3.Size = new System.Drawing.Size(381, 13);
-            this.lbl_Formula_3.TabIndex = 7;
-            this.lbl_Formula_3.Text = "% Conciliacion = (Empacado + Muestra + Merma) / (Recibido - Devuelto)  x 100";
-            // 
             // lbl_Formula_2
             // 
             this.lbl_Formula_2.AutoSize = true;
             this.lbl_Formula_2.Enabled = false;
-            this.lbl_Formula_2.Location = new System.Drawing.Point(6, 418);
+            this.lbl_Formula_2.Location = new System.Drawing.Point(6, 331);
             this.lbl_Formula_2.Name = "lbl_Formula_2";
-            this.lbl_Formula_2.Size = new System.Drawing.Size(283, 13);
-            this.lbl_Formula_2.TabIndex = 6;
-            this.lbl_Formula_2.Text = "% Rendimiento = Empacado / (Recibido - Devuelto)  x 100";
+            this.lbl_Formula_2.Size = new System.Drawing.Size(381, 13);
+            this.lbl_Formula_2.TabIndex = 7;
+            this.lbl_Formula_2.Text = "% Conciliacion = (Empacado + Muestra + Merma) / (Recibido - Devuelto)  x 100";
             // 
-            // btn_Aceptar_6
+            // lbl_Formula_1
             // 
-            this.btn_Aceptar_6.Enabled = false;
-            this.btn_Aceptar_6.Image = global::SISACO.Properties.Resources.Aceptar;
-            this.btn_Aceptar_6.Location = new System.Drawing.Point(791, 520);
-            this.btn_Aceptar_6.Name = "btn_Aceptar_6";
-            this.btn_Aceptar_6.Size = new System.Drawing.Size(75, 23);
-            this.btn_Aceptar_6.TabIndex = 9;
-            this.btn_Aceptar_6.Text = "Aceptar";
-            this.btn_Aceptar_6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Aceptar_6.UseVisualStyleBackColor = true;
-            this.btn_Aceptar_6.Click += new System.EventHandler(this.btn_Aceptar_7_Click);
+            this.lbl_Formula_1.AutoSize = true;
+            this.lbl_Formula_1.Enabled = false;
+            this.lbl_Formula_1.Location = new System.Drawing.Point(6, 311);
+            this.lbl_Formula_1.Name = "lbl_Formula_1";
+            this.lbl_Formula_1.Size = new System.Drawing.Size(283, 13);
+            this.lbl_Formula_1.TabIndex = 6;
+            this.lbl_Formula_1.Text = "% Rendimiento = Empacado / (Recibido - Devuelto)  x 100";
             // 
-            // btn_Limpiar_6
+            // btn_Aceptar_5
             // 
-            this.btn_Limpiar_6.Enabled = false;
-            this.btn_Limpiar_6.Image = global::SISACO.Properties.Resources.Limpiar;
-            this.btn_Limpiar_6.Location = new System.Drawing.Point(710, 520);
-            this.btn_Limpiar_6.Name = "btn_Limpiar_6";
-            this.btn_Limpiar_6.Size = new System.Drawing.Size(75, 23);
-            this.btn_Limpiar_6.TabIndex = 8;
-            this.btn_Limpiar_6.Text = "Limpiar";
-            this.btn_Limpiar_6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Limpiar_6.UseVisualStyleBackColor = true;
-            this.btn_Limpiar_6.Click += new System.EventHandler(this.btn_Limpiar_7_Click);
+            this.btn_Aceptar_5.Enabled = false;
+            this.btn_Aceptar_5.Image = global::SISACO.Properties.Resources.Aceptar;
+            this.btn_Aceptar_5.Location = new System.Drawing.Point(791, 520);
+            this.btn_Aceptar_5.Name = "btn_Aceptar_5";
+            this.btn_Aceptar_5.Size = new System.Drawing.Size(75, 23);
+            this.btn_Aceptar_5.TabIndex = 9;
+            this.btn_Aceptar_5.Text = "Aceptar";
+            this.btn_Aceptar_5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Aceptar_5.UseVisualStyleBackColor = true;
+            this.btn_Aceptar_5.Click += new System.EventHandler(this.btn_Aceptar_7_Click);
+            // 
+            // btn_Limpiar_5
+            // 
+            this.btn_Limpiar_5.Enabled = false;
+            this.btn_Limpiar_5.Image = global::SISACO.Properties.Resources.Limpiar;
+            this.btn_Limpiar_5.Location = new System.Drawing.Point(710, 520);
+            this.btn_Limpiar_5.Name = "btn_Limpiar_5";
+            this.btn_Limpiar_5.Size = new System.Drawing.Size(75, 23);
+            this.btn_Limpiar_5.TabIndex = 8;
+            this.btn_Limpiar_5.Text = "Limpiar";
+            this.btn_Limpiar_5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Limpiar_5.UseVisualStyleBackColor = true;
+            this.btn_Limpiar_5.Click += new System.EventHandler(this.btn_Limpiar_7_Click);
             // 
             // gpb_Merma
             // 
@@ -2843,41 +2838,41 @@
             this.gpb_Merma.Enabled = false;
             this.gpb_Merma.Location = new System.Drawing.Point(6, 208);
             this.gpb_Merma.Name = "gpb_Merma";
-            this.gpb_Merma.Size = new System.Drawing.Size(860, 200);
+            this.gpb_Merma.Size = new System.Drawing.Size(860, 100);
             this.gpb_Merma.TabIndex = 4;
             this.gpb_Merma.TabStop = false;
             this.gpb_Merma.Text = "Merma";
             // 
             // dgv_Merma
             // 
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Merma.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Merma.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_Merma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Merma.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Merma.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_Merma.Location = new System.Drawing.Point(9, 17);
             this.dgv_Merma.Name = "dgv_Merma";
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle45.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle45.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Merma.RowHeadersDefaultCellStyle = dataGridViewCellStyle45;
-            this.dgv_Merma.Size = new System.Drawing.Size(843, 177);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Merma.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_Merma.Size = new System.Drawing.Size(843, 76);
             this.dgv_Merma.TabIndex = 5;
             // 
             // gpb_Material_Empaque_2
@@ -2893,33 +2888,33 @@
             // 
             // dgv_Material_Empaque_2
             // 
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle46.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Material_Empaque_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Material_Empaque_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_Material_Empaque_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Material_Empaque_2.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Material_Empaque_2.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_Material_Empaque_2.Location = new System.Drawing.Point(9, 17);
             this.dgv_Material_Empaque_2.Name = "dgv_Material_Empaque_2";
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Material_Empaque_2.RowHeadersDefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Material_Empaque_2.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_Material_Empaque_2.Size = new System.Drawing.Size(843, 177);
             this.dgv_Material_Empaque_2.TabIndex = 3;
             // 
@@ -2998,6 +2993,7 @@
             // 
             // txt_Total_2
             // 
+            this.txt_Total_2.Enabled = false;
             this.txt_Total_2.Location = new System.Drawing.Point(752, 104);
             this.txt_Total_2.Name = "txt_Total_2";
             this.txt_Total_2.Size = new System.Drawing.Size(100, 20);
@@ -3015,33 +3011,33 @@
             // dgv_Entrega_Producto_Terminado_Almacen
             // 
             this.dgv_Entrega_Producto_Terminado_Almacen.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle49.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle49.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Entrega_Producto_Terminado_Almacen.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Entrega_Producto_Terminado_Almacen.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgv_Entrega_Producto_Terminado_Almacen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Entrega_Producto_Terminado_Almacen.DefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Entrega_Producto_Terminado_Almacen.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgv_Entrega_Producto_Terminado_Almacen.Location = new System.Drawing.Point(9, 17);
             this.dgv_Entrega_Producto_Terminado_Almacen.Name = "dgv_Entrega_Producto_Terminado_Almacen";
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle51.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Entrega_Producto_Terminado_Almacen.RowHeadersDefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Entrega_Producto_Terminado_Almacen.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgv_Entrega_Producto_Terminado_Almacen.Size = new System.Drawing.Size(843, 76);
             this.dgv_Entrega_Producto_Terminado_Almacen.TabIndex = 5;
             // 
@@ -3059,33 +3055,33 @@
             // dgv_Entrega_Producto_Empacar
             // 
             this.dgv_Entrega_Producto_Empacar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle52.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Entrega_Producto_Empacar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Entrega_Producto_Empacar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgv_Entrega_Producto_Empacar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Entrega_Producto_Empacar.DefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Entrega_Producto_Empacar.DefaultCellStyle = dataGridViewCellStyle11;
             this.dgv_Entrega_Producto_Empacar.Location = new System.Drawing.Point(9, 17);
             this.dgv_Entrega_Producto_Empacar.Name = "dgv_Entrega_Producto_Empacar";
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Entrega_Producto_Empacar.RowHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Entrega_Producto_Empacar.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgv_Entrega_Producto_Empacar.Size = new System.Drawing.Size(843, 76);
             this.dgv_Entrega_Producto_Empacar.TabIndex = 3;
             // 
@@ -3106,12 +3102,11 @@
             // 
             // btn_Limpiar_3
             // 
-            this.btn_Limpiar_3.Enabled = false;
             this.btn_Limpiar_3.Image = global::SISACO.Properties.Resources.Limpiar;
             this.btn_Limpiar_3.Location = new System.Drawing.Point(710, 520);
             this.btn_Limpiar_3.Name = "btn_Limpiar_3";
             this.btn_Limpiar_3.Size = new System.Drawing.Size(75, 23);
-            this.btn_Limpiar_3.TabIndex = 146;
+            this.btn_Limpiar_3.TabIndex = 150;
             this.btn_Limpiar_3.Text = "Limpiar";
             this.btn_Limpiar_3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Limpiar_3.UseVisualStyleBackColor = true;
@@ -3119,12 +3114,11 @@
             // 
             // btn_Aceptar_3
             // 
-            this.btn_Aceptar_3.Enabled = false;
             this.btn_Aceptar_3.Image = global::SISACO.Properties.Resources.Aceptar;
             this.btn_Aceptar_3.Location = new System.Drawing.Point(791, 520);
             this.btn_Aceptar_3.Name = "btn_Aceptar_3";
             this.btn_Aceptar_3.Size = new System.Drawing.Size(75, 23);
-            this.btn_Aceptar_3.TabIndex = 147;
+            this.btn_Aceptar_3.TabIndex = 151;
             this.btn_Aceptar_3.Text = "Aceptar";
             this.btn_Aceptar_3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Aceptar_3.UseVisualStyleBackColor = true;
@@ -3133,11 +3127,10 @@
             // gpb_Observaciones_3
             // 
             this.gpb_Observaciones_3.Controls.Add(this.txt_Observaciones_3);
-            this.gpb_Observaciones_3.Enabled = false;
             this.gpb_Observaciones_3.Location = new System.Drawing.Point(438, 421);
             this.gpb_Observaciones_3.Name = "gpb_Observaciones_3";
             this.gpb_Observaciones_3.Size = new System.Drawing.Size(427, 82);
-            this.gpb_Observaciones_3.TabIndex = 144;
+            this.gpb_Observaciones_3.TabIndex = 148;
             this.gpb_Observaciones_3.TabStop = false;
             this.gpb_Observaciones_3.Text = "Observaciones";
             // 
@@ -3147,252 +3140,258 @@
             this.txt_Observaciones_3.Multiline = true;
             this.txt_Observaciones_3.Name = "txt_Observaciones_3";
             this.txt_Observaciones_3.Size = new System.Drawing.Size(415, 56);
-            this.txt_Observaciones_3.TabIndex = 145;
+            this.txt_Observaciones_3.TabIndex = 149;
             // 
             // gpb_Procedimiento
             // 
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_9_3);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_9_2);
-            this.gpb_Procedimiento.Controls.Add(this.txt_Procedimiento_15);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_17);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_16);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_15_2);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_15);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_14_2);
-            this.gpb_Procedimiento.Controls.Add(this.txt_Procedimiento_9_2);
-            this.gpb_Procedimiento.Controls.Add(this.txt_Procedimiento_9_3);
-            this.gpb_Procedimiento.Controls.Add(this.dtp_Fecha_Procedimiento_10_11_12);
-            this.gpb_Procedimiento.Controls.Add(this.dtp_Fecha_Procedimiento_17);
-            this.gpb_Procedimiento.Controls.Add(this.dtp_Fecha_Procedimiento_14_15_16);
-            this.gpb_Procedimiento.Controls.Add(this.dtp_Fecha_Procedimiento_13);
-            this.gpb_Procedimiento.Controls.Add(this.txt_Procedimiento_14);
-            this.gpb_Procedimiento.Controls.Add(this.dtp_Fecha_Procedimiento_8_9);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_13);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_14);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_12);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_11);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_10);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_9);
-            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_8);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_7_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_6_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_5_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_4_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_3_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_7_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_6_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_5_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_4_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_3_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_2_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_2_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Fecha_Procedimiento_1_2);
+            this.gpb_Procedimiento.Controls.Add(this.cbx_Fecha_Procedimiento_1_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_Cajas);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_7_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_6_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_5_2_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_5_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_4_2_2);
+            this.gpb_Procedimiento.Controls.Add(this.txt_insumo);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_4_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_3_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_2_2);
+            this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_1_2);
             this.gpb_Procedimiento.Controls.Add(this.lbl_Procedimiento_7);
             this.gpb_Procedimiento.Controls.Add(this.lbl_Fecha_4);
-            this.gpb_Procedimiento.Enabled = false;
             this.gpb_Procedimiento.Location = new System.Drawing.Point(438, 6);
             this.gpb_Procedimiento.Name = "gpb_Procedimiento";
-            this.gpb_Procedimiento.Size = new System.Drawing.Size(427, 365);
+            this.gpb_Procedimiento.Size = new System.Drawing.Size(427, 320);
             this.gpb_Procedimiento.TabIndex = 120;
             this.gpb_Procedimiento.TabStop = false;
             this.gpb_Procedimiento.Text = "Procedimiento";
             // 
-            // lbl_Procedimiento_9_3
+            // cbx_Fecha_Procedimiento_7_2
             // 
-            this.lbl_Procedimiento_9_3.AutoSize = true;
-            this.lbl_Procedimiento_9_3.Location = new System.Drawing.Point(23, 110);
-            this.lbl_Procedimiento_9_3.Name = "lbl_Procedimiento_9_3";
-            this.lbl_Procedimiento_9_3.Size = new System.Drawing.Size(113, 13);
-            this.lbl_Procedimiento_9_3.TabIndex = 125;
-            this.lbl_Procedimiento_9_3.Text = "Fecha de Vencimiento";
+            this.cbx_Fecha_Procedimiento_7_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_7_2.Location = new System.Drawing.Point(406, 294);
+            this.cbx_Fecha_Procedimiento_7_2.Name = "cbx_Fecha_Procedimiento_7_2";
+            this.cbx_Fecha_Procedimiento_7_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_7_2.TabIndex = 147;
+            this.cbx_Fecha_Procedimiento_7_2.UseVisualStyleBackColor = true;
             // 
-            // lbl_Procedimiento_9_2
+            // cbx_Fecha_Procedimiento_6_2
             // 
-            this.lbl_Procedimiento_9_2.AutoSize = true;
-            this.lbl_Procedimiento_9_2.Location = new System.Drawing.Point(25, 84);
-            this.lbl_Procedimiento_9_2.Name = "lbl_Procedimiento_9_2";
-            this.lbl_Procedimiento_9_2.Size = new System.Drawing.Size(83, 13);
-            this.lbl_Procedimiento_9_2.TabIndex = 123;
-            this.lbl_Procedimiento_9_2.Text = "Numero de Lote";
+            this.cbx_Fecha_Procedimiento_6_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_6_2.Location = new System.Drawing.Point(406, 258);
+            this.cbx_Fecha_Procedimiento_6_2.Name = "cbx_Fecha_Procedimiento_6_2";
+            this.cbx_Fecha_Procedimiento_6_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_6_2.TabIndex = 144;
+            this.cbx_Fecha_Procedimiento_6_2.UseVisualStyleBackColor = true;
             // 
-            // txt_Procedimiento_15
+            // cbx_Fecha_Procedimiento_5_2
             // 
-            this.txt_Procedimiento_15.Location = new System.Drawing.Point(70, 288);
-            this.txt_Procedimiento_15.Name = "txt_Procedimiento_15";
-            this.txt_Procedimiento_15.Size = new System.Drawing.Size(40, 20);
-            this.txt_Procedimiento_15.TabIndex = 138;
+            this.cbx_Fecha_Procedimiento_5_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_5_2.Location = new System.Drawing.Point(406, 209);
+            this.cbx_Fecha_Procedimiento_5_2.Name = "cbx_Fecha_Procedimiento_5_2";
+            this.cbx_Fecha_Procedimiento_5_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_5_2.TabIndex = 141;
+            this.cbx_Fecha_Procedimiento_5_2.UseVisualStyleBackColor = true;
             // 
-            // lbl_Procedimiento_17
+            // cbx_Fecha_Procedimiento_4_2
             // 
-            this.lbl_Procedimiento_17.AutoSize = true;
-            this.lbl_Procedimiento_17.Location = new System.Drawing.Point(6, 347);
-            this.lbl_Procedimiento_17.Name = "lbl_Procedimiento_17";
-            this.lbl_Procedimiento_17.Size = new System.Drawing.Size(269, 13);
-            this.lbl_Procedimiento_17.TabIndex = 142;
-            this.lbl_Procedimiento_17.Text = "10.- Remitir las cajas al almacén de cuarentena en APT\r\n";
+            this.cbx_Fecha_Procedimiento_4_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_4_2.Location = new System.Drawing.Point(406, 166);
+            this.cbx_Fecha_Procedimiento_4_2.Name = "cbx_Fecha_Procedimiento_4_2";
+            this.cbx_Fecha_Procedimiento_4_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_4_2.TabIndex = 136;
+            this.cbx_Fecha_Procedimiento_4_2.UseVisualStyleBackColor = true;
             // 
-            // lbl_Procedimiento_16
+            // cbx_Fecha_Procedimiento_3_2
             // 
-            this.lbl_Procedimiento_16.AutoSize = true;
-            this.lbl_Procedimiento_16.Location = new System.Drawing.Point(6, 319);
-            this.lbl_Procedimiento_16.Name = "lbl_Procedimiento_16";
-            this.lbl_Procedimiento_16.Size = new System.Drawing.Size(312, 13);
-            this.lbl_Procedimiento_16.TabIndex = 140;
-            this.lbl_Procedimiento_16.Text = "9.- Identificar las cajas de embalaje con Etiquetas de Produccion";
+            this.cbx_Fecha_Procedimiento_3_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_3_2.Location = new System.Drawing.Point(406, 123);
+            this.cbx_Fecha_Procedimiento_3_2.Name = "cbx_Fecha_Procedimiento_3_2";
+            this.cbx_Fecha_Procedimiento_3_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_3_2.TabIndex = 131;
+            this.cbx_Fecha_Procedimiento_3_2.UseVisualStyleBackColor = true;
             // 
-            // lbl_Procedimiento_15_2
+            // txt_Fecha_Procedimiento_7_2
             // 
-            this.lbl_Procedimiento_15_2.AutoSize = true;
-            this.lbl_Procedimiento_15_2.Location = new System.Drawing.Point(116, 291);
-            this.lbl_Procedimiento_15_2.Name = "lbl_Procedimiento_15_2";
-            this.lbl_Procedimiento_15_2.Size = new System.Drawing.Size(141, 13);
-            this.lbl_Procedimiento_15_2.TabIndex = 139;
-            this.lbl_Procedimiento_15_2.Text = "cajas en la caja de embalaje";
+            this.txt_Fecha_Procedimiento_7_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_7_2.Location = new System.Drawing.Point(294, 291);
+            this.txt_Fecha_Procedimiento_7_2.Name = "txt_Fecha_Procedimiento_7_2";
+            this.txt_Fecha_Procedimiento_7_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_7_2.TabIndex = 146;
             // 
-            // lbl_Procedimiento_15
+            // txt_Fecha_Procedimiento_6_2
             // 
-            this.lbl_Procedimiento_15.AutoSize = true;
-            this.lbl_Procedimiento_15.Location = new System.Drawing.Point(6, 291);
-            this.lbl_Procedimiento_15.Name = "lbl_Procedimiento_15";
-            this.lbl_Procedimiento_15.Size = new System.Drawing.Size(58, 13);
-            this.lbl_Procedimiento_15.TabIndex = 137;
-            this.lbl_Procedimiento_15.Text = "8.- Colocar";
+            this.txt_Fecha_Procedimiento_6_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_6_2.Location = new System.Drawing.Point(294, 255);
+            this.txt_Fecha_Procedimiento_6_2.Name = "txt_Fecha_Procedimiento_6_2";
+            this.txt_Fecha_Procedimiento_6_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_6_2.TabIndex = 143;
             // 
-            // lbl_Procedimiento_14_2
+            // txt_Fecha_Procedimiento_5_2
             // 
-            this.lbl_Procedimiento_14_2.AutoSize = true;
-            this.lbl_Procedimiento_14_2.Location = new System.Drawing.Point(156, 263);
-            this.lbl_Procedimiento_14_2.Name = "lbl_Procedimiento_14_2";
-            this.lbl_Procedimiento_14_2.Size = new System.Drawing.Size(121, 13);
-            this.lbl_Procedimiento_14_2.TabIndex = 136;
-            this.lbl_Procedimiento_14_2.Text = "+ 1 inserto en cada caja";
+            this.txt_Fecha_Procedimiento_5_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_5_2.Location = new System.Drawing.Point(294, 206);
+            this.txt_Fecha_Procedimiento_5_2.Name = "txt_Fecha_Procedimiento_5_2";
+            this.txt_Fecha_Procedimiento_5_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_5_2.TabIndex = 140;
             // 
-            // txt_Procedimiento_9_2
+            // txt_Fecha_Procedimiento_4_2
             // 
-            this.txt_Procedimiento_9_2.Location = new System.Drawing.Point(166, 81);
-            this.txt_Procedimiento_9_2.Name = "txt_Procedimiento_9_2";
-            this.txt_Procedimiento_9_2.Size = new System.Drawing.Size(100, 20);
-            this.txt_Procedimiento_9_2.TabIndex = 124;
+            this.txt_Fecha_Procedimiento_4_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_4_2.Location = new System.Drawing.Point(294, 163);
+            this.txt_Fecha_Procedimiento_4_2.Name = "txt_Fecha_Procedimiento_4_2";
+            this.txt_Fecha_Procedimiento_4_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_4_2.TabIndex = 135;
             // 
-            // txt_Procedimiento_9_3
+            // txt_Fecha_Procedimiento_3_2
             // 
-            this.txt_Procedimiento_9_3.Location = new System.Drawing.Point(166, 107);
-            this.txt_Procedimiento_9_3.Name = "txt_Procedimiento_9_3";
-            this.txt_Procedimiento_9_3.Size = new System.Drawing.Size(100, 20);
-            this.txt_Procedimiento_9_3.TabIndex = 126;
+            this.txt_Fecha_Procedimiento_3_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_3_2.Location = new System.Drawing.Point(294, 120);
+            this.txt_Fecha_Procedimiento_3_2.Name = "txt_Fecha_Procedimiento_3_2";
+            this.txt_Fecha_Procedimiento_3_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_3_2.TabIndex = 130;
             // 
-            // dtp_Fecha_Procedimiento_10_11_12
+            // cbx_Fecha_Procedimiento_2_2
             // 
-            this.dtp_Fecha_Procedimiento_10_11_12.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Procedimiento_10_11_12.Location = new System.Drawing.Point(321, 165);
-            this.dtp_Fecha_Procedimiento_10_11_12.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_10_11_12.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_10_11_12.Name = "dtp_Fecha_Procedimiento_10_11_12";
-            this.dtp_Fecha_Procedimiento_10_11_12.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Procedimiento_10_11_12.TabIndex = 131;
-            this.dtp_Fecha_Procedimiento_10_11_12.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.cbx_Fecha_Procedimiento_2_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_2_2.Location = new System.Drawing.Point(406, 95);
+            this.cbx_Fecha_Procedimiento_2_2.Name = "cbx_Fecha_Procedimiento_2_2";
+            this.cbx_Fecha_Procedimiento_2_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_2_2.TabIndex = 128;
+            this.cbx_Fecha_Procedimiento_2_2.UseVisualStyleBackColor = true;
             // 
-            // dtp_Fecha_Procedimiento_17
+            // txt_Fecha_Procedimiento_2_2
             // 
-            this.dtp_Fecha_Procedimiento_17.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Procedimiento_17.Location = new System.Drawing.Point(321, 341);
-            this.dtp_Fecha_Procedimiento_17.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_17.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_17.Name = "dtp_Fecha_Procedimiento_17";
-            this.dtp_Fecha_Procedimiento_17.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Procedimiento_17.TabIndex = 143;
-            this.dtp_Fecha_Procedimiento_17.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.txt_Fecha_Procedimiento_2_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_2_2.Location = new System.Drawing.Point(294, 92);
+            this.txt_Fecha_Procedimiento_2_2.Name = "txt_Fecha_Procedimiento_2_2";
+            this.txt_Fecha_Procedimiento_2_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_2_2.TabIndex = 127;
             // 
-            // dtp_Fecha_Procedimiento_14_15_16
+            // txt_Fecha_Procedimiento_1_2
             // 
-            this.dtp_Fecha_Procedimiento_14_15_16.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Procedimiento_14_15_16.Location = new System.Drawing.Point(321, 288);
-            this.dtp_Fecha_Procedimiento_14_15_16.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_14_15_16.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_14_15_16.Name = "dtp_Fecha_Procedimiento_14_15_16";
-            this.dtp_Fecha_Procedimiento_14_15_16.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Procedimiento_14_15_16.TabIndex = 141;
-            this.dtp_Fecha_Procedimiento_14_15_16.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.txt_Fecha_Procedimiento_1_2.Enabled = false;
+            this.txt_Fecha_Procedimiento_1_2.Location = new System.Drawing.Point(294, 34);
+            this.txt_Fecha_Procedimiento_1_2.Name = "txt_Fecha_Procedimiento_1_2";
+            this.txt_Fecha_Procedimiento_1_2.Size = new System.Drawing.Size(100, 20);
+            this.txt_Fecha_Procedimiento_1_2.TabIndex = 124;
             // 
-            // dtp_Fecha_Procedimiento_13
+            // cbx_Fecha_Procedimiento_1_2
             // 
-            this.dtp_Fecha_Procedimiento_13.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Procedimiento_13.Location = new System.Drawing.Point(321, 229);
-            this.dtp_Fecha_Procedimiento_13.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_13.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_13.Name = "dtp_Fecha_Procedimiento_13";
-            this.dtp_Fecha_Procedimiento_13.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Procedimiento_13.TabIndex = 133;
-            this.dtp_Fecha_Procedimiento_13.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.cbx_Fecha_Procedimiento_1_2.AutoSize = true;
+            this.cbx_Fecha_Procedimiento_1_2.Location = new System.Drawing.Point(406, 37);
+            this.cbx_Fecha_Procedimiento_1_2.Name = "cbx_Fecha_Procedimiento_1_2";
+            this.cbx_Fecha_Procedimiento_1_2.Size = new System.Drawing.Size(15, 14);
+            this.cbx_Fecha_Procedimiento_1_2.TabIndex = 125;
+            this.cbx_Fecha_Procedimiento_1_2.UseVisualStyleBackColor = true;
             // 
-            // txt_Procedimiento_14
+            // txt_Cajas
             // 
-            this.txt_Procedimiento_14.Location = new System.Drawing.Point(70, 258);
-            this.txt_Procedimiento_14.Name = "txt_Procedimiento_14";
-            this.txt_Procedimiento_14.Size = new System.Drawing.Size(80, 20);
-            this.txt_Procedimiento_14.TabIndex = 135;
+            this.txt_Cajas.Location = new System.Drawing.Point(71, 206);
+            this.txt_Cajas.Name = "txt_Cajas";
+            this.txt_Cajas.Size = new System.Drawing.Size(40, 20);
+            this.txt_Cajas.TabIndex = 138;
             // 
-            // dtp_Fecha_Procedimiento_8_9
+            // lbl_Procedimiento_7_2
             // 
-            this.dtp_Fecha_Procedimiento_8_9.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_Fecha_Procedimiento_8_9.Location = new System.Drawing.Point(321, 65);
-            this.dtp_Fecha_Procedimiento_8_9.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_8_9.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            this.dtp_Fecha_Procedimiento_8_9.Name = "dtp_Fecha_Procedimiento_8_9";
-            this.dtp_Fecha_Procedimiento_8_9.Size = new System.Drawing.Size(100, 20);
-            this.dtp_Fecha_Procedimiento_8_9.TabIndex = 127;
-            this.dtp_Fecha_Procedimiento_8_9.Value = new System.DateTime(2011, 5, 1, 0, 0, 0, 0);
+            this.lbl_Procedimiento_7_2.AutoSize = true;
+            this.lbl_Procedimiento_7_2.Location = new System.Drawing.Point(6, 295);
+            this.lbl_Procedimiento_7_2.Name = "lbl_Procedimiento_7_2";
+            this.lbl_Procedimiento_7_2.Size = new System.Drawing.Size(263, 13);
+            this.lbl_Procedimiento_7_2.TabIndex = 145;
+            this.lbl_Procedimiento_7_2.Text = "7.- Remitir las cajas al almacén de cuarentena en APT\r\n";
             // 
-            // lbl_Procedimiento_13
+            // lbl_Procedimiento_6_2
             // 
-            this.lbl_Procedimiento_13.AutoSize = true;
-            this.lbl_Procedimiento_13.Location = new System.Drawing.Point(6, 235);
-            this.lbl_Procedimiento_13.Name = "lbl_Procedimiento_13";
-            this.lbl_Procedimiento_13.Size = new System.Drawing.Size(192, 13);
-            this.lbl_Procedimiento_13.TabIndex = 132;
-            this.lbl_Procedimiento_13.Text = "6.- Remitir muestra a Control de Calidad";
+            this.lbl_Procedimiento_6_2.AutoSize = true;
+            this.lbl_Procedimiento_6_2.Location = new System.Drawing.Point(7, 252);
+            this.lbl_Procedimiento_6_2.Name = "lbl_Procedimiento_6_2";
+            this.lbl_Procedimiento_6_2.Size = new System.Drawing.Size(258, 26);
+            this.lbl_Procedimiento_6_2.TabIndex = 142;
+            this.lbl_Procedimiento_6_2.Text = "6.- Identificar las cajas de embalaje con Etiquetas de \r\n     Produccion";
             // 
-            // lbl_Procedimiento_14
+            // lbl_Procedimiento_5_2_2
             // 
-            this.lbl_Procedimiento_14.AutoSize = true;
-            this.lbl_Procedimiento_14.Location = new System.Drawing.Point(6, 263);
-            this.lbl_Procedimiento_14.Name = "lbl_Procedimiento_14";
-            this.lbl_Procedimiento_14.Size = new System.Drawing.Size(58, 13);
-            this.lbl_Procedimiento_14.TabIndex = 134;
-            this.lbl_Procedimiento_14.Text = "7.- Colocar";
+            this.lbl_Procedimiento_5_2_2.AutoSize = true;
+            this.lbl_Procedimiento_5_2_2.Location = new System.Drawing.Point(117, 209);
+            this.lbl_Procedimiento_5_2_2.Name = "lbl_Procedimiento_5_2_2";
+            this.lbl_Procedimiento_5_2_2.Size = new System.Drawing.Size(141, 13);
+            this.lbl_Procedimiento_5_2_2.TabIndex = 139;
+            this.lbl_Procedimiento_5_2_2.Text = "cajas en la caja de embalaje";
             // 
-            // lbl_Procedimiento_12
+            // lbl_Procedimiento_5_2
             // 
-            this.lbl_Procedimiento_12.AutoSize = true;
-            this.lbl_Procedimiento_12.Location = new System.Drawing.Point(6, 194);
-            this.lbl_Procedimiento_12.Name = "lbl_Procedimiento_12";
-            this.lbl_Procedimiento_12.Size = new System.Drawing.Size(294, 26);
-            this.lbl_Procedimiento_12.TabIndex = 130;
-            this.lbl_Procedimiento_12.Text = "5.- Iniciar el proceso\r\n     Revisar empaquetamiento. Hacer prueba de hermeticida" +
-                "d";
+            this.lbl_Procedimiento_5_2.AutoSize = true;
+            this.lbl_Procedimiento_5_2.Location = new System.Drawing.Point(7, 209);
+            this.lbl_Procedimiento_5_2.Name = "lbl_Procedimiento_5_2";
+            this.lbl_Procedimiento_5_2.Size = new System.Drawing.Size(58, 13);
+            this.lbl_Procedimiento_5_2.TabIndex = 137;
+            this.lbl_Procedimiento_5_2.Text = "5.- Colocar";
             // 
-            // lbl_Procedimiento_11
+            // lbl_Procedimiento_4_2_2
             // 
-            this.lbl_Procedimiento_11.AutoSize = true;
-            this.lbl_Procedimiento_11.Location = new System.Drawing.Point(6, 166);
-            this.lbl_Procedimiento_11.Name = "lbl_Procedimiento_11";
-            this.lbl_Procedimiento_11.Size = new System.Drawing.Size(294, 26);
-            this.lbl_Procedimiento_11.TabIndex = 129;
-            this.lbl_Procedimiento_11.Text = "4.- Realiza las pruebas de hermeticidad en el empaque vacio\r\n\r\n";
+            this.lbl_Procedimiento_4_2_2.AutoSize = true;
+            this.lbl_Procedimiento_4_2_2.Location = new System.Drawing.Point(154, 166);
+            this.lbl_Procedimiento_4_2_2.Name = "lbl_Procedimiento_4_2_2";
+            this.lbl_Procedimiento_4_2_2.Size = new System.Drawing.Size(121, 13);
+            this.lbl_Procedimiento_4_2_2.TabIndex = 134;
+            this.lbl_Procedimiento_4_2_2.Text = "+ 1 inserto en cada caja";
             // 
-            // lbl_Procedimiento_10
+            // txt_insumo
             // 
-            this.lbl_Procedimiento_10.AutoSize = true;
-            this.lbl_Procedimiento_10.Location = new System.Drawing.Point(6, 138);
-            this.lbl_Procedimiento_10.Name = "lbl_Procedimiento_10";
-            this.lbl_Procedimiento_10.Size = new System.Drawing.Size(257, 13);
-            this.lbl_Procedimiento_10.TabIndex = 128;
-            this.lbl_Procedimiento_10.Text = "3.- Verificar el sellado y lotizado correcto sin producto";
+            this.txt_insumo.Location = new System.Drawing.Point(68, 164);
+            this.txt_insumo.Name = "txt_insumo";
+            this.txt_insumo.Size = new System.Drawing.Size(80, 20);
+            this.txt_insumo.TabIndex = 133;
             // 
-            // lbl_Procedimiento_9
+            // lbl_Procedimiento_4_2
             // 
-            this.lbl_Procedimiento_9.AutoSize = true;
-            this.lbl_Procedimiento_9.Location = new System.Drawing.Point(6, 65);
-            this.lbl_Procedimiento_9.Name = "lbl_Procedimiento_9";
-            this.lbl_Procedimiento_9.Size = new System.Drawing.Size(246, 13);
-            this.lbl_Procedimiento_9.TabIndex = 122;
-            this.lbl_Procedimiento_9.Text = "2.- Colocar en el empaque principal del producto el\r\n";
+            this.lbl_Procedimiento_4_2.AutoSize = true;
+            this.lbl_Procedimiento_4_2.Location = new System.Drawing.Point(4, 166);
+            this.lbl_Procedimiento_4_2.Name = "lbl_Procedimiento_4_2";
+            this.lbl_Procedimiento_4_2.Size = new System.Drawing.Size(58, 13);
+            this.lbl_Procedimiento_4_2.TabIndex = 132;
+            this.lbl_Procedimiento_4_2.Text = "4.- Colocar";
             // 
-            // lbl_Procedimiento_8
+            // lbl_Procedimiento_3_2
             // 
-            this.lbl_Procedimiento_8.AutoSize = true;
-            this.lbl_Procedimiento_8.Location = new System.Drawing.Point(6, 37);
-            this.lbl_Procedimiento_8.Name = "lbl_Procedimiento_8";
-            this.lbl_Procedimiento_8.Size = new System.Drawing.Size(231, 26);
-            this.lbl_Procedimiento_8.TabIndex = 121;
-            this.lbl_Procedimiento_8.Text = "1.- Utilizar formato establecido por cada tipo de \r\n     empaquetamiento\r\n";
+            this.lbl_Procedimiento_3_2.AutoSize = true;
+            this.lbl_Procedimiento_3_2.Location = new System.Drawing.Point(6, 123);
+            this.lbl_Procedimiento_3_2.Name = "lbl_Procedimiento_3_2";
+            this.lbl_Procedimiento_3_2.Size = new System.Drawing.Size(209, 13);
+            this.lbl_Procedimiento_3_2.TabIndex = 129;
+            this.lbl_Procedimiento_3_2.Text = "3.- Iniciar el proceso de acondicionamiento";
+            // 
+            // lbl_Procedimiento_2_2
+            // 
+            this.lbl_Procedimiento_2_2.AutoSize = true;
+            this.lbl_Procedimiento_2_2.Location = new System.Drawing.Point(6, 80);
+            this.lbl_Procedimiento_2_2.Name = "lbl_Procedimiento_2_2";
+            this.lbl_Procedimiento_2_2.Size = new System.Drawing.Size(259, 39);
+            this.lbl_Procedimiento_2_2.TabIndex = 126;
+            this.lbl_Procedimiento_2_2.Text = "2.- Colocar y verificar el número de lote y la fecha de \r\n     vencimiento en el " +
+                "empauqe principal del producto \r\n     cajas\r\n";
+            // 
+            // lbl_Procedimiento_1_2
+            // 
+            this.lbl_Procedimiento_1_2.AutoSize = true;
+            this.lbl_Procedimiento_1_2.Location = new System.Drawing.Point(6, 37);
+            this.lbl_Procedimiento_1_2.Name = "lbl_Procedimiento_1_2";
+            this.lbl_Procedimiento_1_2.Size = new System.Drawing.Size(275, 13);
+            this.lbl_Procedimiento_1_2.TabIndex = 123;
+            this.lbl_Procedimiento_1_2.Text = "1.- Utilizar formato establecido para cada tipo de proceso\r\n";
             // 
             // lbl_Procedimiento_7
             // 
@@ -3408,7 +3407,7 @@
             // 
             this.lbl_Fecha_4.AutoSize = true;
             this.lbl_Fecha_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Fecha_4.Location = new System.Drawing.Point(349, 22);
+            this.lbl_Fecha_4.Location = new System.Drawing.Point(323, 22);
             this.lbl_Fecha_4.Name = "lbl_Fecha_4";
             this.lbl_Fecha_4.Size = new System.Drawing.Size(42, 13);
             this.lbl_Fecha_4.TabIndex = 122;
@@ -3473,7 +3472,6 @@
             this.gpb_Despeje_Linea_2.Controls.Add(this.lbl_Area_2);
             this.gpb_Despeje_Linea_2.Controls.Add(this.lbl_Conforme_2);
             this.gpb_Despeje_Linea_2.Controls.Add(this.lbl_No_Aplica_2);
-            this.gpb_Despeje_Linea_2.Enabled = false;
             this.gpb_Despeje_Linea_2.Location = new System.Drawing.Point(6, 6);
             this.gpb_Despeje_Linea_2.Name = "gpb_Despeje_Linea_2";
             this.gpb_Despeje_Linea_2.Size = new System.Drawing.Size(427, 497);
@@ -3501,6 +3499,7 @@
             // 
             // txt_Fecha_2
             // 
+            this.txt_Fecha_2.Enabled = false;
             this.txt_Fecha_2.Location = new System.Drawing.Point(300, 444);
             this.txt_Fecha_2.Name = "txt_Fecha_2";
             this.txt_Fecha_2.Size = new System.Drawing.Size(100, 20);
@@ -4345,6 +4344,7 @@
             // 
             // txt_Hora_2
             // 
+            this.txt_Hora_2.Enabled = false;
             this.txt_Hora_2.Location = new System.Drawing.Point(300, 470);
             this.txt_Hora_2.Name = "txt_Hora_2";
             this.txt_Hora_2.Size = new System.Drawing.Size(100, 20);
@@ -6360,38 +6360,38 @@
             // dgv_Devolucion
             // 
             this.dgv_Devolucion.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle55.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Devolucion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Devolucion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dgv_Devolucion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Devolucion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Insumo_Devolucion,
             this.Numero_Analisis_Devolucion,
             this.Cantidad_Devolucion,
             this.Fecha_Devolucion});
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle56.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Devolucion.DefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Devolucion.DefaultCellStyle = dataGridViewCellStyle14;
             this.dgv_Devolucion.Location = new System.Drawing.Point(9, 17);
             this.dgv_Devolucion.Name = "dgv_Devolucion";
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle57.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle57.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Devolucion.RowHeadersDefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Devolucion.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dgv_Devolucion.Size = new System.Drawing.Size(843, 76);
             this.dgv_Devolucion.TabIndex = 29;
             // 
@@ -6430,39 +6430,39 @@
             // dgv_Adicional
             // 
             this.dgv_Adicional.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle58.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle58.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Adicional.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Adicional.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.dgv_Adicional.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Adicional.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Insumo_Adicional,
             this.Numero_Analisis_Adicional,
             this.Cantidad_Adicional,
             this.Fecha_Adicional});
-            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle59.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle59.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Adicional.DefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Adicional.DefaultCellStyle = dataGridViewCellStyle17;
             this.dgv_Adicional.Location = new System.Drawing.Point(9, 17);
             this.dgv_Adicional.Name = "dgv_Adicional";
             this.dgv_Adicional.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle60.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle60.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Adicional.RowHeadersDefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Adicional.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.dgv_Adicional.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.dgv_Adicional.Size = new System.Drawing.Size(843, 76);
             this.dgv_Adicional.TabIndex = 27;
@@ -6505,14 +6505,14 @@
             // dgv_Material_Empaque
             // 
             this.dgv_Material_Empaque.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle61.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle61.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle61.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Material_Empaque.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Material_Empaque.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.dgv_Material_Empaque.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Material_Empaque.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Codigo_Material_Empaque,
@@ -6521,24 +6521,24 @@
             this.Unidad_Medida,
             this.Cantidad_Entregada,
             this.Numero_Analisis});
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle62.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle62.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Material_Empaque.DefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Material_Empaque.DefaultCellStyle = dataGridViewCellStyle20;
             this.dgv_Material_Empaque.Location = new System.Drawing.Point(9, 17);
             this.dgv_Material_Empaque.Name = "dgv_Material_Empaque";
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle63.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Material_Empaque.RowHeadersDefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Material_Empaque.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.dgv_Material_Empaque.Size = new System.Drawing.Size(843, 76);
             this.dgv_Material_Empaque.TabIndex = 25;
             // 
@@ -7160,18 +7160,16 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
         private System.Windows.Forms.TabPage tbp_Rendimiento_Reporte_Final;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Termino;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Inicio;
         private System.Windows.Forms.TextBox txt_Merma;
         private System.Windows.Forms.TextBox txt_Rendimiento_Final;
         private System.Windows.Forms.TextBox txt_Cantidad_Obtenida;
         private System.Windows.Forms.TextBox txt_Cantidad_Teorica;
         private System.Windows.Forms.Label lbl_Merma;
-        private System.Windows.Forms.Button btn_Aceptar_7;
-        private System.Windows.Forms.Button btn_Limpiar_7;
+        private System.Windows.Forms.Button btn_Aceptar_6;
+        private System.Windows.Forms.Button btn_Limpiar_6;
         private System.Windows.Forms.GroupBox gpb_Observaciones_5;
         private System.Windows.Forms.TextBox txt_Observaciones_5;
-        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label lbl_Formula_3;
         private System.Windows.Forms.Label lbl_3_0_Porciento;
         private System.Windows.Forms.Label lbl_Limites_Merma;
         private System.Windows.Forms.Label lbl_Rendimiento_Final;
@@ -7180,10 +7178,10 @@
         private System.Windows.Forms.Label lbl_Cantidad_Teorica;
         private System.Windows.Forms.Label lbl_Fecha_Inicio;
         private System.Windows.Forms.TabPage tbp_Rendimiento_Empaque;
-        private System.Windows.Forms.Label lbl_Formula_3;
         private System.Windows.Forms.Label lbl_Formula_2;
-        private System.Windows.Forms.Button btn_Aceptar_6;
-        private System.Windows.Forms.Button btn_Limpiar_6;
+        private System.Windows.Forms.Label lbl_Formula_1;
+        private System.Windows.Forms.Button btn_Aceptar_5;
+        private System.Windows.Forms.Button btn_Limpiar_5;
         private System.Windows.Forms.GroupBox gpb_Merma;
         private System.Windows.Forms.DataGridView dgv_Merma;
         private System.Windows.Forms.GroupBox gpb_Material_Empaque_2;
@@ -7205,29 +7203,17 @@
         private System.Windows.Forms.GroupBox gpb_Observaciones_3;
         private System.Windows.Forms.TextBox txt_Observaciones_3;
         private System.Windows.Forms.GroupBox gpb_Procedimiento;
-        private System.Windows.Forms.Label lbl_Procedimiento_9_3;
-        private System.Windows.Forms.Label lbl_Procedimiento_9_2;
-        private System.Windows.Forms.TextBox txt_Procedimiento_15;
-        private System.Windows.Forms.Label lbl_Procedimiento_17;
-        private System.Windows.Forms.Label lbl_Procedimiento_16;
-        private System.Windows.Forms.Label lbl_Procedimiento_15_2;
-        private System.Windows.Forms.Label lbl_Procedimiento_15;
-        private System.Windows.Forms.Label lbl_Procedimiento_14_2;
-        private System.Windows.Forms.TextBox txt_Procedimiento_9_2;
-        private System.Windows.Forms.TextBox txt_Procedimiento_9_3;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Procedimiento_10_11_12;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Procedimiento_17;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Procedimiento_14_15_16;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Procedimiento_13;
-        private System.Windows.Forms.TextBox txt_Procedimiento_14;
-        private System.Windows.Forms.DateTimePicker dtp_Fecha_Procedimiento_8_9;
-        private System.Windows.Forms.Label lbl_Procedimiento_13;
-        private System.Windows.Forms.Label lbl_Procedimiento_14;
-        private System.Windows.Forms.Label lbl_Procedimiento_12;
-        private System.Windows.Forms.Label lbl_Procedimiento_11;
-        private System.Windows.Forms.Label lbl_Procedimiento_10;
-        private System.Windows.Forms.Label lbl_Procedimiento_9;
-        private System.Windows.Forms.Label lbl_Procedimiento_8;
+        private System.Windows.Forms.TextBox txt_Cajas;
+        private System.Windows.Forms.Label lbl_Procedimiento_7_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_6_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_5_2_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_5_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_4_2_2;
+        private System.Windows.Forms.TextBox txt_insumo;
+        private System.Windows.Forms.Label lbl_Procedimiento_4_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_3_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_2_2;
+        private System.Windows.Forms.Label lbl_Procedimiento_1_2;
         private System.Windows.Forms.Label lbl_Procedimiento_7;
         private System.Windows.Forms.Label lbl_Fecha_4;
         private System.Windows.Forms.GroupBox gpb_Despeje_Linea_2;
@@ -7546,5 +7532,21 @@
         private System.Windows.Forms.Label lbl_Linea;
         private System.Windows.Forms.TextBox txt_Codigo_Producto;
         private System.Windows.Forms.TabControl tct_Nueva_Orden_Acondicionamiento;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_1_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_1_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_7_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_6_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_5_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_4_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_3_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_7_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_6_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_5_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_4_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_3_2;
+        private System.Windows.Forms.CheckBox cbx_Fecha_Procedimiento_2_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_2_2;
+        private System.Windows.Forms.TextBox txt_Fecha_Inicio;
+        private System.Windows.Forms.TextBox txt_Fecha_Termino;
     }
 }
