@@ -47,16 +47,19 @@ namespace SISACO
 
         private void btn_Buscar_Click(object sender, EventArgs e)
         {
-            if (txt_Codigo_Producto.Text == "")
-            {
-                MessageBox.Show(const_msgErrorCodProductoIng, const_titAdvertencia, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                txt_Codigo_Producto.Focus();
+            if (txt_Codigo_Producto.Text == "") {
+                Form_SeleccionarProducto frm_SeleccionarProducto = new Form_SeleccionarProducto(true);
+                frm_SeleccionarProducto.ProductoSeleccionado += new ProductoSeleccionadoEventHandler(frm_SeleccionarProducto_ProductoSeleccionado);
+                frm_SeleccionarProducto.ShowDialog();
             }
-            else
-            {
+            else {
                 CargaProducto(txt_Codigo_Producto.Text);
-                
             }
+        }
+
+        void frm_SeleccionarProducto_ProductoSeleccionado(object sender, ProductoSeleccionadoEventArgs e) {
+            txt_Codigo_Producto.Text = e.ProductoSeleccionado.Codigo_Producto;
+            CargaProducto(txt_Codigo_Producto.Text);
         }
 
         private void btn_Aceptar_Click(object sender, EventArgs e)

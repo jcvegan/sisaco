@@ -101,7 +101,7 @@ namespace SISACO
         {
             if (txt_Codigo_Producto.Text == "")
             {
-                Form_SeleccionarProducto fSelProducto = new Form_SeleccionarProducto();
+                Form_SeleccionarProducto fSelProducto = new Form_SeleccionarProducto(false);
                 fSelProducto.ProductoSeleccionado += new ProductoSeleccionadoEventHandler(fSelProducto_ProductoSeleccionado);
                 fSelProducto.ShowDialog();
             }
