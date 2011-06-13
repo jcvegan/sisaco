@@ -13,17 +13,25 @@ namespace SISACO
 {
     public partial class Form_SeleccionarProducto : Form 
     {
+        private bool muestraTodos;
+
         public event ProductoSeleccionadoEventHandler ProductoSeleccionado;
 
-        public Form_SeleccionarProducto() 
+        public Form_SeleccionarProducto(bool _muestraTodos) 
         {
+            muestraTodos = _muestraTodos;
             InitializeComponent();
         }
 
         public void Init() {
             BLT_Producto blt_producto = new BLT_Producto();
             dgv_Seleccionar_Producto.AutoGenerateColumns = false;
-            dgv_Seleccionar_Producto.DataSource = blt_producto.fnSelT_Producto_conMaterialEmpaque();
+            if (muestraTodos) {
+                dgv_Seleccionar_Producto.DataSource = blt_producto.fnSelT_ProductoAll();
+            }
+            else {
+                dgv_Seleccionar_Producto.DataSource = blt_producto.fnSelT_Producto_conMaterialEmpaque();
+            }
         }
 
         private void dgv_Productos_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e) 
