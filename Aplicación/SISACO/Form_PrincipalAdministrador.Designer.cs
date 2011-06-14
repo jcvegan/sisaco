@@ -139,8 +139,8 @@
             this.materialToolStripMenuItem1,
             this.materialPorProductoToolStripMenuItem});
             this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
-            this.registroToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.registroToolStripMenuItem.Text = "Registrar";
+            this.registroToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.registroToolStripMenuItem.Text = "Administrar";
             // 
             // usuarioToolStripMenuItem
             // 
