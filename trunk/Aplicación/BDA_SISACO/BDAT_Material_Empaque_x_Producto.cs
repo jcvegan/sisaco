@@ -67,19 +67,19 @@ namespace BDA_SISACO
 			loCn.ConnectionString = ClassCadena.fnConexion();	
 			//parametros
 			
-			SqlParameter[] par = new SqlParameter[6];
+			SqlParameter[] par = new SqlParameter[5];
 			par[0] = new SqlParameter("@Codigo_Material_Empaque_x_Producto",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[0],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque_x_Producto);
 			par[1] = new SqlParameter("@Codigo_Producto",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Material_Empaque_x_Producto.Codigo_Producto);
-			par[2] = new SqlParameter("@Lote_Fabricacion",System.Data.SqlDbType.VarChar,10);
-			ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Lote_Fabricacion);
-			par[3] = new SqlParameter("@Tamaño_Lote",System.Data.SqlDbType.Int);
-			ValidateAndInsertValue(par[3],poBOT_Material_Empaque_x_Producto.Tamaño_Lote);
-			par[4] = new SqlParameter("@Codigo_Material_Empaque",System.Data.SqlDbType.VarChar,10);
-			ValidateAndInsertValue(par[4],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque);
-			par[5] = new SqlParameter("@Cantidad_Pedida",System.Data.SqlDbType.Decimal);
-			ValidateAndInsertValue(par[5],poBOT_Material_Empaque_x_Producto.Cantidad_Pedida);
+            //par[2] = new SqlParameter("@Lote_Fabricacion",System.Data.SqlDbType.VarChar,10);
+            //ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Lote_Fabricacion);
+			par[2] = new SqlParameter("@Tamaño_Lote",System.Data.SqlDbType.Int);
+			ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Tamaño_Lote);
+			par[3] = new SqlParameter("@Codigo_Material_Empaque",System.Data.SqlDbType.VarChar,10);
+			ValidateAndInsertValue(par[3],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque);
+			par[4] = new SqlParameter("@Cantidad_Pedida",System.Data.SqlDbType.Decimal);
+			ValidateAndInsertValue(par[4],poBOT_Material_Empaque_x_Producto.Cantidad_Pedida);
 			
 			loCn.Open();
 			loTx = loCn.BeginTransaction();
@@ -111,19 +111,23 @@ namespace BDA_SISACO
 			loCn.ConnectionString = ClassCadena.fnConexion();	
 			//parametros
 			
-			SqlParameter[] par = new SqlParameter[6];
+			SqlParameter[] par = new SqlParameter[7];
 			par[0] = new SqlParameter("@Codigo_Material_Empaque_x_Producto",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[0],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque_x_Producto);
 			par[1] = new SqlParameter("@Codigo_Producto",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Material_Empaque_x_Producto.Codigo_Producto);
-			par[2] = new SqlParameter("@Lote_Fabricacion",System.Data.SqlDbType.VarChar,10);
-			ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Lote_Fabricacion);
-			par[3] = new SqlParameter("@Tamaño_Lote",System.Data.SqlDbType.Int);
-			ValidateAndInsertValue(par[3],poBOT_Material_Empaque_x_Producto.Tamaño_Lote);
-			par[4] = new SqlParameter("@Codigo_Material_Empaque",System.Data.SqlDbType.VarChar,10);
-			ValidateAndInsertValue(par[4],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque);
-			par[5] = new SqlParameter("@Cantidad_Pedida",System.Data.SqlDbType.Decimal);
-			ValidateAndInsertValue(par[5],poBOT_Material_Empaque_x_Producto.Cantidad_Pedida);
+            //par[2] = new SqlParameter("@Lote_Fabricacion",System.Data.SqlDbType.VarChar,10);
+            //ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Lote_Fabricacion);
+			par[2] = new SqlParameter("@Tamaño_Lote",System.Data.SqlDbType.Int);
+			ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Tamaño_Lote);
+			par[3] = new SqlParameter("@Codigo_Material_Empaque",System.Data.SqlDbType.VarChar,10);
+			ValidateAndInsertValue(par[3],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque);
+            par[4] = new SqlParameter("@Nombre_Material_Empaque", System.Data.SqlDbType.NVarChar, 50);
+            ValidateAndInsertValue(par[4], poBOT_Material_Empaque_x_Producto.Nombre_Material_Empaque);
+            par[5] = new SqlParameter("@Unidad_Medida", System.Data.SqlDbType.NVarChar, 5);
+            ValidateAndInsertValue(par[5], poBOT_Material_Empaque_x_Producto.Unidad_Medida);
+			par[6] = new SqlParameter("@Cantidad_Pedida",System.Data.SqlDbType.Decimal);
+			ValidateAndInsertValue(par[6],poBOT_Material_Empaque_x_Producto.Cantidad_Pedida);
 			
 			loCn.Open();
 			loTx = loCn.BeginTransaction();
