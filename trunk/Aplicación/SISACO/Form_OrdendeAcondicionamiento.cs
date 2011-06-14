@@ -179,7 +179,7 @@ namespace SISACO
             txt_Forma_Farmaceutica.Text = "";
             txt_Lote_Fabricacion.Text = "";
             lbl_Tamaño_Lote.Enabled = false;
-            cbx_Tamaño_Lote.DataSource = null;
+            cbx_Tamaño_Lote.Enabled = false;
             lbl_Linea.Enabled = false;
             txt_Linea.Enabled = false;
             txt_Linea.Text = "";
