@@ -891,5 +891,16 @@ namespace SISACO
             }
         }
 
+        private void dgv_Material_Empaque_CellEndEdit(object sender, DataGridViewCellEventArgs e) {
+            BOT_Material_Empaque_x_Producto oMEP = dgv_Material_Empaque.Rows[e.RowIndex].DataBoundItem as BOT_Material_Empaque_x_Producto;
+            if (oMEP.Cantidad_Pedida < oMEP.Cantidad_Entregada) {
+                MessageBox.Show("Cantidad Pedida es Menor que Cantidad entregada");
+            }
+            else {
+                MessageBox.Show("Cantidad Pedida es Mayor que Cantidad entregada");
+            }
+
+        }
+
     }
 }
