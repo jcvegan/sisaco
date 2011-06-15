@@ -241,7 +241,7 @@ namespace SISACO
                 for (int i = 0; i <= dgv_Adicional.Rows.Count - 2; i++) 
                 {
                     BOT_Adicional oA = (BOT_Adicional)dgv_Adicional.Rows[i].DataBoundItem;
-                    if (oA.Insumo != "") 
+                    if (oA.Codigo_Producto != "") 
                     {
                         oA.Fecha = DateTime.Now;
                         oA.Codigo_Orden_Acondicionado = _codigo_orden_acondicionamiento;
@@ -893,11 +893,39 @@ namespace SISACO
 
         private void dgv_Material_Empaque_CellEndEdit(object sender, DataGridViewCellEventArgs e) {
             BOT_Material_Empaque_x_Producto oMEP = dgv_Material_Empaque.Rows[e.RowIndex].DataBoundItem as BOT_Material_Empaque_x_Producto;
-            if (oMEP.Cantidad_Pedida < oMEP.Cantidad_Entregada) {
-                MessageBox.Show("Cantidad Pedida es Menor que Cantidad entregada");
+            if (oMEP.Cantidad_Pedida > oMEP.Cantidad_Entregada) {
+                BOT_Adicional bot_Adicional = new BOT_Adicional();
+                bot_Adicional.Codigo_Producto = oMEP.Codigo_Producto;
+                bot_Adicional.Producto = new BLT_Producto().fnSelT_Producto(bot_Adicional.Codigo_Producto);
+                bot_Adicional.Fecha = DateTime.Now;
+                bot_Adicional.Cantidad = ((oMEP.Cantidad_Entregada - oMEP.Cantidad_Pedida)*(-1)).ToString();
+                list_bot_Adicional.Add(bot_Adicional);
+                dgv_Adicional.DataSource = list_bot_Adicional;
             }
             else {
-                MessageBox.Show("Cantidad Pedida es Mayor que Cantidad entregada");
+                if (oMEP.Cantidad_Pedida == oMEP.Cantidad_Entregada) {
+
+                    BindingList<BOT_Adicional> lstAd = dgv_Adicional.DataSource as BindingList<BOT_Adicional>;
+                    if (lstAd.Count != 0) {
+                        BOT_Adicional bot_adicional = lstAd.First(ad => ad.Codigo_Producto == oMEP.Codigo_Producto);
+                        lstAd.Remove(bot_adicional);
+                    }
+
+                }
+                else {
+                    BindingList<BOT_Adicional> lstAd = dgv_Adicional.DataSource as BindingList<BOT_Adicional>;
+                    if (lstAd.Count != 0) {
+                        BOT_Adicional bot_adicional = lstAd.First(ad => ad.Codigo_Producto == oMEP.Codigo_Producto);
+                        lstAd.Remove(bot_adicional);
+                    }
+                    BOT_Devolucion bot_Devolucion = new BOT_Devolucion();
+                    bot_Devolucion.Codigo_Producto = oMEP.Codigo_Producto;
+                    bot_Devolucion.Producto = new BLT_Producto().fnSelT_Producto(bot_Devolucion.Codigo_Producto);
+                    bot_Devolucion.Cantidad = ((oMEP.Cantidad_Pedida - oMEP.Cantidad_Entregada)*(-1)).ToString();
+                    list_bot_devolucion.Add(bot_Devolucion);
+                    dgv_Devolucion.DataSource = list_bot_devolucion;
+                    
+                }
             }
 
         }

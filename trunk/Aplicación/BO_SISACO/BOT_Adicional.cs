@@ -9,10 +9,11 @@ namespace BO_SISACO
 	{
 		private String _codigoAdicional;
 		private String _codigoOrdenAcondicionado;
-		private String _insumo;
+		private String _codigo_Producto;
 		private String _numeroAnalisis;
 		private String _cantidad;
 		private DateTime _fecha;
+        private BOT_Producto _producto;
 		
 		public String Codigo_Adicional
 		{
@@ -36,15 +37,15 @@ namespace BO_SISACO
 				_codigoOrdenAcondicionado =value;
 			}
 		}
-		public String Insumo
+		public String Codigo_Producto
 		{
 			get
 			{
-				return _insumo;
+				return _codigo_Producto;
 			}
 			set
 			{
-				_insumo =value;
+				_codigo_Producto =value;
 			}
 		}
 		public String Numero_Analisis
@@ -80,7 +81,21 @@ namespace BO_SISACO
 				_fecha =value;
 			}
 		}
-		
+        public BOT_Producto Producto {
+            get {
+                return _producto;
+            }
+            set {
+                _producto = value;
+            }
+        }
+        public String Nombre_Producto {
+            get {
+                return _producto.Nombre_Producto;
+            }
+        }
+
+
 		#region CONSTRUCTOR
 		public BOT_Adicional()
 		{

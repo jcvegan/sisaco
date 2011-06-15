@@ -26,7 +26,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionado",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Adicional.Codigo_Orden_Acondicionado);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Adicional.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Adicional.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Adicional.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -74,7 +74,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionado",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Adicional.Codigo_Orden_Acondicionado);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Adicional.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Adicional.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Adicional.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -119,7 +119,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionado",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Adicional.Codigo_Orden_Acondicionado);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Adicional.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Adicional.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Adicional.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -198,7 +198,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionado"));
 					loBOT_Adicional.Codigo_Orden_Acondicionado = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Adicional.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Adicional.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Adicional.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));
@@ -240,7 +240,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionado"));
 					loBOT_Adicional.Codigo_Orden_Acondicionado = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Adicional.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Adicional.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Adicional.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));
@@ -282,7 +282,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionado"));
 					loBOT_Adicional.Codigo_Orden_Acondicionado = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Adicional.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Adicional.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Adicional.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));

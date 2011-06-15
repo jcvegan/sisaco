@@ -576,16 +576,8 @@
             this.txt_Observaciones = new System.Windows.Forms.TextBox();
             this.gpb_Devolucion = new System.Windows.Forms.GroupBox();
             this.dgv_Devolucion = new System.Windows.Forms.DataGridView();
-            this.Insumo_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Numero_Analisis_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gpb_Adicional = new System.Windows.Forms.GroupBox();
             this.dgv_Adicional = new System.Windows.Forms.DataGridView();
-            this.Insumo_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Numero_Analisis_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha_Adicional = new SISACO.Controles.CalendarColumn();
             this.gpb_Material_Empaque = new System.Windows.Forms.GroupBox();
             this.dgv_Material_Empaque = new System.Windows.Forms.DataGridView();
             this.Codigo_Material_Empaque = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -617,6 +609,14 @@
             this.lbl_Linea = new System.Windows.Forms.Label();
             this.txt_Codigo_Producto = new System.Windows.Forms.TextBox();
             this.tct_Nueva_Orden_Acondicionamiento = new System.Windows.Forms.TabControl();
+            this.Insumo_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Numero_Analisis_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Adicional = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Adicional = new SISACO.Controles.CalendarColumn();
+            this.Insumo_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Numero_Analisis_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Devolucion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -6395,27 +6395,6 @@
             this.dgv_Devolucion.Size = new System.Drawing.Size(843, 76);
             this.dgv_Devolucion.TabIndex = 29;
             // 
-            // Insumo_Devolucion
-            // 
-            this.Insumo_Devolucion.HeaderText = "Insumo";
-            this.Insumo_Devolucion.Name = "Insumo_Devolucion";
-            // 
-            // Numero_Analisis_Devolucion
-            // 
-            this.Numero_Analisis_Devolucion.HeaderText = "Número de Análisis";
-            this.Numero_Analisis_Devolucion.Name = "Numero_Analisis_Devolucion";
-            // 
-            // Cantidad_Devolucion
-            // 
-            this.Cantidad_Devolucion.HeaderText = "Cantidad";
-            this.Cantidad_Devolucion.Name = "Cantidad_Devolucion";
-            // 
-            // Fecha_Devolucion
-            // 
-            this.Fecha_Devolucion.DataPropertyName = "Fecha";
-            this.Fecha_Devolucion.HeaderText = "Fecha";
-            this.Fecha_Devolucion.Name = "Fecha_Devolucion";
-            // 
             // gpb_Adicional
             // 
             this.gpb_Adicional.Controls.Add(this.dgv_Adicional);
@@ -6466,30 +6445,6 @@
             this.dgv_Adicional.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.dgv_Adicional.Size = new System.Drawing.Size(843, 76);
             this.dgv_Adicional.TabIndex = 27;
-            // 
-            // Insumo_Adicional
-            // 
-            this.Insumo_Adicional.DataPropertyName = "Insumo";
-            this.Insumo_Adicional.HeaderText = "Insumo";
-            this.Insumo_Adicional.Name = "Insumo_Adicional";
-            // 
-            // Numero_Analisis_Adicional
-            // 
-            this.Numero_Analisis_Adicional.DataPropertyName = "Numero_Analisis";
-            this.Numero_Analisis_Adicional.HeaderText = "Número de Análisis";
-            this.Numero_Analisis_Adicional.Name = "Numero_Analisis_Adicional";
-            // 
-            // Cantidad_Adicional
-            // 
-            this.Cantidad_Adicional.DataPropertyName = "Cantidad";
-            this.Cantidad_Adicional.HeaderText = "Cantidad";
-            this.Cantidad_Adicional.Name = "Cantidad_Adicional";
-            // 
-            // Fecha_Adicional
-            // 
-            this.Fecha_Adicional.DataPropertyName = "Fecha";
-            this.Fecha_Adicional.HeaderText = "Fecha";
-            this.Fecha_Adicional.Name = "Fecha_Adicional";
             // 
             // gpb_Material_Empaque
             // 
@@ -6825,6 +6780,53 @@
             this.tct_Nueva_Orden_Acondicionamiento.TabIndex = 1;
             this.tct_Nueva_Orden_Acondicionamiento.SelectedIndexChanged += new System.EventHandler(this.tct_Nueva_Orden_Acondicionamiento_SelectedIndexChanged_1);
             this.tct_Nueva_Orden_Acondicionamiento.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tct_Nueva_Orden_Acondicionamiento_Selecting);
+            // 
+            // Insumo_Adicional
+            // 
+            this.Insumo_Adicional.DataPropertyName = "Nombre_Producto";
+            this.Insumo_Adicional.HeaderText = "Insumo";
+            this.Insumo_Adicional.Name = "Insumo_Adicional";
+            // 
+            // Numero_Analisis_Adicional
+            // 
+            this.Numero_Analisis_Adicional.DataPropertyName = "Numero_Analisis";
+            this.Numero_Analisis_Adicional.HeaderText = "Número de Análisis";
+            this.Numero_Analisis_Adicional.Name = "Numero_Analisis_Adicional";
+            // 
+            // Cantidad_Adicional
+            // 
+            this.Cantidad_Adicional.DataPropertyName = "Cantidad";
+            this.Cantidad_Adicional.HeaderText = "Cantidad";
+            this.Cantidad_Adicional.Name = "Cantidad_Adicional";
+            // 
+            // Fecha_Adicional
+            // 
+            this.Fecha_Adicional.DataPropertyName = "Fecha";
+            this.Fecha_Adicional.HeaderText = "Fecha";
+            this.Fecha_Adicional.Name = "Fecha_Adicional";
+            // 
+            // Insumo_Devolucion
+            // 
+            this.Insumo_Devolucion.DataPropertyName = "Nombre_Producto";
+            this.Insumo_Devolucion.HeaderText = "Insumo";
+            this.Insumo_Devolucion.Name = "Insumo_Devolucion";
+            // 
+            // Numero_Analisis_Devolucion
+            // 
+            this.Numero_Analisis_Devolucion.HeaderText = "Número de Análisis";
+            this.Numero_Analisis_Devolucion.Name = "Numero_Analisis_Devolucion";
+            // 
+            // Cantidad_Devolucion
+            // 
+            this.Cantidad_Devolucion.DataPropertyName = "Cantidad";
+            this.Cantidad_Devolucion.HeaderText = "Cantidad";
+            this.Cantidad_Devolucion.Name = "Cantidad_Devolucion";
+            // 
+            // Fecha_Devolucion
+            // 
+            this.Fecha_Devolucion.DataPropertyName = "Fecha";
+            this.Fecha_Devolucion.HeaderText = "Fecha";
+            this.Fecha_Devolucion.Name = "Fecha_Devolucion";
             // 
             // Form_OrdendeAcondicionamiento
             // 
@@ -7492,16 +7494,8 @@
         private System.Windows.Forms.TextBox txt_Observaciones;
         private System.Windows.Forms.GroupBox gpb_Devolucion;
         private System.Windows.Forms.DataGridView dgv_Devolucion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Insumo_Devolucion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Numero_Analisis_Devolucion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Devolucion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Devolucion;
         private System.Windows.Forms.GroupBox gpb_Adicional;
         private System.Windows.Forms.DataGridView dgv_Adicional;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Insumo_Adicional;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Numero_Analisis_Adicional;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Adicional;
-        private SISACO.Controles.CalendarColumn Fecha_Adicional;
         private System.Windows.Forms.GroupBox gpb_Material_Empaque;
         private System.Windows.Forms.DataGridView dgv_Material_Empaque;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo_Material_Empaque;
@@ -7549,5 +7543,13 @@
         private System.Windows.Forms.TextBox txt_Fecha_Procedimiento_2_2;
         private System.Windows.Forms.TextBox txt_Fecha_Inicio;
         private System.Windows.Forms.TextBox txt_Fecha_Termino;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Insumo_Devolucion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Numero_Analisis_Devolucion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Devolucion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Devolucion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Insumo_Adicional;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Numero_Analisis_Adicional;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad_Adicional;
+        private Controles.CalendarColumn Fecha_Adicional;
     }
 }
