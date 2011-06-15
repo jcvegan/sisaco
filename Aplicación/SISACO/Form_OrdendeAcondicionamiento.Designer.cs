@@ -836,8 +836,8 @@
             this.label16.Size = new System.Drawing.Size(263, 52);
             this.label16.TabIndex = 49;
             this.label16.Text = "3.- Remitir muestra de la primera caja codificada\r\n     al responsable del área y" +
-                " al responsable en CDC \r\n     para su V°B°. ADJUNTAR ESTA CAJA EN EL \r\n     REVE" +
-                "RSO DEL REGISTRO DE MANUFACTURA.";
+    " al responsable en CDC \r\n     para su V°B°. ADJUNTAR ESTA CAJA EN EL \r\n     REVE" +
+    "RSO DEL REGISTRO DE MANUFACTURA.";
             // 
             // label17
             // 
@@ -3382,7 +3382,7 @@
             this.lbl_Procedimiento_2_2.Size = new System.Drawing.Size(259, 39);
             this.lbl_Procedimiento_2_2.TabIndex = 126;
             this.lbl_Procedimiento_2_2.Text = "2.- Colocar y verificar el número de lote y la fecha de \r\n     vencimiento en el " +
-                "empauqe principal del producto \r\n     cajas\r\n";
+    "empauqe principal del producto \r\n     cajas\r\n";
             // 
             // lbl_Procedimiento_1_2
             // 
@@ -4873,7 +4873,7 @@
             this.lbl_Procedimiento_3.Size = new System.Drawing.Size(232, 39);
             this.lbl_Procedimiento_3.TabIndex = 129;
             this.lbl_Procedimiento_3.Text = "3.- Remitir muestra de la primera caja codificada\r\n     al responsable del área y" +
-                " al responsable en \r\n     Control de Calidad para su visto bueno";
+    " al responsable en \r\n     Control de Calidad para su visto bueno";
             // 
             // lbl_Procedimiento_2
             // 
@@ -4892,7 +4892,7 @@
             this.lbl_Procedimiento_1.Size = new System.Drawing.Size(230, 26);
             this.lbl_Procedimiento_1.TabIndex = 123;
             this.lbl_Procedimiento_1.Text = "1.- Iniciar la codificación del material a procesar\r\n     según Instructivo de Pr" +
-                "oducción";
+    "oducción";
             // 
             // lbl_Procedimiento
             // 
@@ -6541,6 +6541,7 @@
             this.dgv_Material_Empaque.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.dgv_Material_Empaque.Size = new System.Drawing.Size(843, 76);
             this.dgv_Material_Empaque.TabIndex = 25;
+            this.dgv_Material_Empaque.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Material_Empaque_CellEndEdit);
             // 
             // Codigo_Material_Empaque
             // 
@@ -6822,8 +6823,8 @@
             this.tct_Nueva_Orden_Acondicionamiento.SelectedIndex = 0;
             this.tct_Nueva_Orden_Acondicionamiento.Size = new System.Drawing.Size(880, 573);
             this.tct_Nueva_Orden_Acondicionamiento.TabIndex = 1;
-            this.tct_Nueva_Orden_Acondicionamiento.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tct_Nueva_Orden_Acondicionamiento_Selecting);
             this.tct_Nueva_Orden_Acondicionamiento.SelectedIndexChanged += new System.EventHandler(this.tct_Nueva_Orden_Acondicionamiento_SelectedIndexChanged_1);
+            this.tct_Nueva_Orden_Acondicionamiento.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tct_Nueva_Orden_Acondicionamiento_Selecting);
             // 
             // Form_OrdendeAcondicionamiento
             // 
