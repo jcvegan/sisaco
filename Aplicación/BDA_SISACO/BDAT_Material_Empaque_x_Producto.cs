@@ -116,8 +116,6 @@ namespace BDA_SISACO
 			ValidateAndInsertValue(par[0],poBOT_Material_Empaque_x_Producto.Codigo_Material_Empaque_x_Producto);
 			par[1] = new SqlParameter("@Codigo_Producto",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Material_Empaque_x_Producto.Codigo_Producto);
-            //par[2] = new SqlParameter("@Lote_Fabricacion",System.Data.SqlDbType.VarChar,10);
-            //ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Lote_Fabricacion);
 			par[2] = new SqlParameter("@Tamaño_Lote",System.Data.SqlDbType.Int);
 			ValidateAndInsertValue(par[2],poBOT_Material_Empaque_x_Producto.Tamaño_Lote);
 			par[3] = new SqlParameter("@Codigo_Material_Empaque",System.Data.SqlDbType.VarChar,10);
