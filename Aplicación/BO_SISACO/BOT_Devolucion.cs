@@ -9,10 +9,11 @@ namespace BO_SISACO
 	{
 		private String _codigoDevolucion;
 		private String _codigoOrdenAcondicionamiento;
-		private String _insumo;
+        private String _codigo_Producto;
 		private String _numeroAnalisis;
 		private String _cantidad;
 		private DateTime _fecha;
+        private BOT_Producto _producto;
 		
 		public String Codigo_Devolucion
 		{
@@ -36,17 +37,14 @@ namespace BO_SISACO
 				_codigoOrdenAcondicionamiento =value;
 			}
 		}
-		public String Insumo
-		{
-			get
-			{
-				return _insumo;
-			}
-			set
-			{
-				_insumo =value;
-			}
-		}
+        public String Codigo_Producto {
+            get {
+                return _codigo_Producto;
+            }
+            set {
+                _codigo_Producto = value;
+            }
+        }
 		public String Numero_Analisis
 		{
 			get
@@ -80,6 +78,19 @@ namespace BO_SISACO
 				_fecha =value;
 			}
 		}
+        public BOT_Producto Producto {
+            get {
+                return _producto;
+            }
+            set {
+                _producto = value;
+            }
+        }
+        public String Nombre_Producto {
+            get {
+                return _producto.Nombre_Producto;
+            }
+        }
 		
 		#region CONSTRUCTOR
 		public BOT_Devolucion()

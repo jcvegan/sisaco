@@ -25,7 +25,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionamiento",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Devolucion.Codigo_Orden_Acondicionamiento);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Devolucion.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Devolucion.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Devolucion.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -73,7 +73,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionamiento",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Devolucion.Codigo_Orden_Acondicionamiento);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Devolucion.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Devolucion.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Devolucion.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -118,7 +118,7 @@ namespace BDA_SISACO
 			par[1] = new SqlParameter("@Codigo_Orden_Acondicionamiento",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[1],poBOT_Devolucion.Codigo_Orden_Acondicionamiento);
 			par[2] = new SqlParameter("@Insumo",System.Data.SqlDbType.VarChar,50);
-			ValidateAndInsertValue(par[2],poBOT_Devolucion.Insumo);
+			ValidateAndInsertValue(par[2],poBOT_Devolucion.Codigo_Producto);
 			par[3] = new SqlParameter("@Numero_Analisis",System.Data.SqlDbType.VarChar,10);
 			ValidateAndInsertValue(par[3],poBOT_Devolucion.Numero_Analisis);
 			par[4] = new SqlParameter("@Cantidad",System.Data.SqlDbType.VarChar,20);
@@ -197,7 +197,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionamiento"));
 					loBOT_Devolucion.Codigo_Orden_Acondicionamiento = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Devolucion.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Devolucion.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Devolucion.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));
@@ -239,7 +239,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionamiento"));
 					loBOT_Devolucion.Codigo_Orden_Acondicionamiento = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Devolucion.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Devolucion.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Devolucion.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));
@@ -281,7 +281,7 @@ namespace BDA_SISACO
 					value = loDr.GetValue(loDr.GetOrdinal("Codigo_Orden_Acondicionamiento"));
 					loBOT_Devolucion.Codigo_Orden_Acondicionamiento = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Insumo"));
-					loBOT_Devolucion.Insumo = value != System.DBNull.Value ? (String)value : default(String);
+					loBOT_Devolucion.Codigo_Producto = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Numero_Analisis"));
 					loBOT_Devolucion.Numero_Analisis = value != System.DBNull.Value ? (String)value : default(String);
 					value = loDr.GetValue(loDr.GetOrdinal("Cantidad"));
