@@ -15,7 +15,7 @@ namespace SISACO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_PrincipalAdministrador());
+            Application.Run(new Form_IniciarSesion());
         }
     }
 }
